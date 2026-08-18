@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T14:20:23.813694372-06:00",
+  "generatedAt": "2026-08-18T17:25:17.581220516-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -163,21 +163,6 @@
       ],
       "games": [
         {
-          "number": "672226",
-          "flightSlug": "premier",
-          "flightName": "Boys 13U Premier",
-          "kickoff": "2026-08-22T08:30:00-06:00",
-          "rawDate": "Saturday, August 22, 2026",
-          "rawTime": "08:30 AM",
-          "venue": "Orem JH",
-          "field": "5262",
-          "matchup": "A1 vs A2",
-          "home": "Utah Rush B13 LM",
-          "away": "La Roca U13B- C Santos ECNL RL",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
           "number": "672228",
           "flightSlug": "premier",
           "flightName": "Boys 13U Premier",
@@ -279,6 +264,21 @@
           "matchup": "A4 vs A9",
           "home": "Murray S.C. U13 Boys Black TP",
           "away": "Wasatch SC 14/13B - AM",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "number": "672226",
+          "flightSlug": "premier",
+          "flightName": "Boys 13U Premier",
+          "kickoff": "2026-09-03T17:30:00-06:00",
+          "rawDate": "Thursday, September 03, 2026",
+          "rawTime": "05:30 PM",
+          "venue": "Orem JH",
+          "field": "5262",
+          "matchup": "A1 vs A2",
+          "home": "Utah Rush B13 LM",
+          "away": "La Roca U13B- C Santos ECNL RL",
           "homeScore": null,
           "awayScore": null
         },
@@ -975,21 +975,6 @@
           "awayScore": null
         },
         {
-          "number": "674234",
-          "flightSlug": "division3",
-          "flightName": "Boys 13U Division 3",
-          "kickoff": "2026-08-28T17:30:00-06:00",
-          "rawDate": "Friday, August 28, 2026",
-          "rawTime": "05:30 PM",
-          "venue": "TBD South",
-          "field": "9872",
-          "matchup": "A3 vs A2",
-          "home": "Nebo United U13 - CG",
-          "away": "Summit FC 13/14B - JW",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
           "number": "674230",
           "flightSlug": "division3",
           "flightName": "Boys 13U Division 3",
@@ -1335,6 +1320,21 @@
           "awayScore": null
         },
         {
+          "number": "674234",
+          "flightSlug": "division3",
+          "flightName": "Boys 13U Division 3",
+          "kickoff": "2026-09-21T18:00:00-06:00",
+          "rawDate": "Monday, September 21, 2026",
+          "rawTime": "06:00 PM",
+          "venue": "Diamond Fork Middle School",
+          "field": "5034",
+          "matchup": "A3 vs A2",
+          "home": "Nebo United U13 - CG",
+          "away": "Summit FC 13/14B - JW",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
           "number": "674233",
           "flightSlug": "division3",
           "flightName": "Boys 13U Division 3",
@@ -1521,8 +1521,8 @@
           "kickoff": "2026-10-02T17:30:00-06:00",
           "rawDate": "Friday, October 02, 2026",
           "rawTime": "05:30 PM",
-          "venue": "TBD South",
-          "field": "9871",
+          "venue": "Olympic Park",
+          "field": "5072",
           "matchup": "A3 vs A4",
           "home": "Nebo United U13 - CG",
           "away": "Strikers TE",
@@ -2203,21 +2203,6 @@
           "awayScore": null
         },
         {
-          "number": "655983",
-          "flightSlug": "metroa",
-          "flightName": "Boys 13U Metro A",
-          "kickoff": "2026-09-23T17:30:00-06:00",
-          "rawDate": "Wednesday, September 23, 2026",
-          "rawTime": "05:30 PM",
-          "venue": "Farnsworth Elementary",
-          "field": "1110",
-          "matchup": "A4 vs A5",
-          "home": "DEP Cachimbas FC 13/14B (ind)",
-          "away": "Copper Mountain 7 BH",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
           "number": "655959",
           "flightSlug": "metroa",
           "flightName": "Boys 13U Metro A",
@@ -2273,6 +2258,21 @@
           "field": "1103",
           "matchup": "A7 vs A5",
           "home": "Murray S.C. U13 Boys Orange RL",
+          "away": "Copper Mountain 7 BH",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "number": "655983",
+          "flightSlug": "metroa",
+          "flightName": "Boys 13U Metro A",
+          "kickoff": "2026-10-02T17:00:00-06:00",
+          "rawDate": "Friday, October 02, 2026",
+          "rawTime": "05:00 PM",
+          "venue": "Farnsworth Elementary",
+          "field": "1110",
+          "matchup": "A4 vs A5",
+          "home": "DEP Cachimbas FC 13/14B (ind)",
           "away": "Copper Mountain 7 BH",
           "homeScore": null,
           "awayScore": null
