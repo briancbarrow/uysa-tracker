@@ -1,0 +1,49 @@
+name: scrape
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Times are UTC. Mountain is UTC-6 (MDT) for the whole Aug-Oct season.
+    # Windows are deliberately narrow: Actions bills each job rounded up to a
+    # whole minute, so run count is the entire cost, and flat round-the-clock
+    # polling would be ~3x this for no benefit.
+    - cron: '*/15 23 * * 1-5'   # weekday 17:00-17:59 MT
+    - cron: '*/15 0-4 * * 2-6'  # weekday 18:00-22:59 MT
+    - cron: '*/15 14-23 * * 6'  # Saturday 08:00-17:59 MT
+    - cron: '*/15 0-4 * * 0'    # Saturday 18:00-22:59 MT
+    - cron: '0 6,12,18 * * *'   # baseline, so a missed window still refreshes
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.26'
+          cache: true
+
+      - name: Scrape and render
+        run: go run ./cmd/scrape -out docs
+
+      - name: Commit if changed
+        run: |
+          # data.json carries a generatedAt stamp that changes every run, so
+          # compare the rendered page's substance instead of just "is dirty".
+          if git diff --quiet -- docs/; then
+            echo "no changes"
+            exit 0
+          fi
+          git config user.name  "uysa-standings bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git commit -m "data: refresh $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
