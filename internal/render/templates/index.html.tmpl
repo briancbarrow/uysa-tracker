@@ -72,18 +72,6 @@ a{color:inherit}
 </div>
 {{ end }}
 
-<h2>Today</h2>
-{{ if .Today }}{{ range .Today }}{{ template "gamecard" . }}{{ end }}
-{{ else }}<p class="empty">No games today.</p>{{ end }}
-
-<h2>Recent results</h2>
-{{ if .Recent }}{{ range .Recent }}{{ template "gamecard" . }}{{ end }}
-{{ else }}<p class="empty">{{ if .SeasonSoon }}Season hasn’t started — first matches are Aug 22.{{ else }}Nothing in the last 7 days.{{ end }}</p>{{ end }}
-
-<h2>Next 7 days</h2>
-{{ if .Upcoming }}{{ range .Upcoming }}{{ template "gamecard" . }}{{ end }}
-{{ else }}<p class="empty">Nothing scheduled in the next 7 days.</p>{{ end }}
-
 <h2>Standings</h2>
 {{ range .Flights }}
 <details>
@@ -108,6 +96,18 @@ a{color:inherit}
   </div>
 </details>
 {{ end }}
+
+<h2>Today</h2>
+{{ if .Today }}{{ range .Today }}{{ template "gamecard" . }}{{ end }}
+{{ else }}<p class="empty">No games today.</p>{{ end }}
+
+<h2>Recent results</h2>
+{{ if .Recent }}{{ range .Recent }}{{ template "gamecard" . }}{{ end }}
+{{ else }}<p class="empty">{{ if .SeasonSoon }}Season hasn’t started — first matches are Aug 22.{{ else }}Nothing in the last 7 days.{{ end }}</p>{{ end }}
+
+<h2>Next 7 days</h2>
+{{ if .Upcoming }}{{ range .Upcoming }}{{ template "gamecard" . }}{{ end }}
+{{ else }}<p class="empty">Nothing scheduled in the next 7 days.</p>{{ end }}
 
 <footer>
   Scraped from <a href="https://uysa.sportsaffinity.com/">uysa.sportsaffinity.com</a>.<br>
