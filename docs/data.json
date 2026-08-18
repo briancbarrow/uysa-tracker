@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T17:25:17.581220516-06:00",
+  "generatedAt": "2026-08-18T17:48:52.953422558-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -1521,8 +1521,8 @@
           "kickoff": "2026-10-02T17:30:00-06:00",
           "rawDate": "Friday, October 02, 2026",
           "rawTime": "05:30 PM",
-          "venue": "Olympic Park",
-          "field": "5072",
+          "venue": "Diamond Fork Middle School",
+          "field": "5034",
           "matchup": "A3 vs A4",
           "home": "Nebo United U13 - CG",
           "away": "Strikers TE",
