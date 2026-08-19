@@ -42,17 +42,31 @@ Then open `docs/index.html`.
    (the scrape job commits its output).
 4. Run the `scrape` workflow once by hand to seed it.
 
-Private repo instead? Pages needs a Pro plan, and the ~875 runs/month bill
-against the 2,000-minute free tier (each job is billed as a full minute even
-though it takes ~30s).
+Private repo instead? Pages needs a Pro plan. The minutes are a non-issue at
+one run a day (each job is billed as a full minute even though it takes ~20s).
 
 ## Polling schedule
 
-Windows track when games actually happen — weekday evenings and Saturday
-daytime — at 15-minute resolution, plus a 6-hourly baseline so a missed window
-still refreshes. See `.github/workflows/scrape.yml`.
+One scheduled run a day, at **21:30 Mountain** (`30 3 * * *` UTC — the season
+is entirely MDT, UTC-6). That is late enough to pick up results entered after
+the evening fixtures.
 
-Two things to not change casually:
+Scheduled runs are gated on `SEASON_OPENS` (2026-08-22) in the workflow and do
+nothing before the first fixture, since there is no data to collect yet. The
+gate only applies to the cron: a manual run always scrapes, whatever the date.
+Because 03:30 UTC is the previous evening in Mountain time, the first automatic
+scrape lands the evening of opening Saturday.
+
+For anything sooner, the page footer links straight to this workflow's run
+page; `workflow_dispatch` lets anyone with write access trigger a run by hand.
+Dispatching requires push permission, so the link is inert for the public.
+
+Scraping more often would not help much anyway: the real lag is clubs entering
+results into SportsAffinity, which takes hours to days.
+
+At ~30 runs/month this is far inside the free tier even on a private repo, and
+free outright on a public one. If you ever widen the schedule again, two things
+to not change casually:
 
 - **Keep it one job.** A `strategy.matrix` over the four flights would be four
   billed minutes per run instead of one, for no gain — the fetches already run
