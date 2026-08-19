@@ -47,6 +47,14 @@ th{color:var(--muted);font-weight:600;font-size:.72rem;text-transform:uppercase}
 td.tm,th.tm{text-align:left;white-space:normal;min-width:150px}
 tbody tr:first-child td{border-top:1px solid var(--line)}
 td.pts{font-weight:700}
+.panel{padding:0 12px 12px}
+.panel .card{background:transparent;border:0;border-top:1px solid var(--line);
+  border-radius:0;padding:9px 2px;margin:0}
+.panel h3{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--muted);margin:16px 0 2px}
+.panel table{margin-bottom:2px}
+.src{margin:14px 0 0;font-size:.76rem}
+.src a{color:var(--muted)}
 footer{margin-top:32px;color:var(--muted);font-size:.76rem;text-align:center}
 a{color:inherit}
 </style>
@@ -66,48 +74,57 @@ a{color:inherit}
     {{ with score . }}<div class="sc">{{ . }}</div>
     {{ else }}<div class="when">{{ clock .Kickoff }}</div>{{ end }}
   </div>
-  <div class="meta">
-    <span class="chip">{{ .FlightName }}</span>{{ day .Kickoff }} · {{ .Venue }}{{ with .Field }} · Field {{ . }}{{ end }}
-  </div>
+  <div class="meta">{{ day .Kickoff }} · {{ .Venue }}{{ with .Field }} · Field {{ . }}{{ end }}</div>
 </div>
 {{ end }}
 
-<h2>Standings</h2>
 {{ range .Flights }}
-<details>
+<details{{ if .Open }} open{{ end }}>
   <summary>{{ .Name }}</summary>
-  <div class="scroll">
-  <table>
-    <thead><tr>
-      <th class="tm">Team</th><th>W</th><th>L</th><th>T</th>
-      <th>Pts</th><th>GD</th><th>GF</th><th>GA</th>
-    </tr></thead>
-    <tbody>
-    {{ range .Standings }}
-      <tr>
-        <td class="tm">{{ .Team }}</td>
-        <td>{{ .Wins }}</td><td>{{ .Losses }}</td><td>{{ .Ties }}</td>
-        <td class="pts">{{ .TotalPoints }}</td>
-        <td>{{ .GoalDiff }}</td><td>{{ .GoalsFor }}</td><td>{{ .GoalsAgainst }}</td>
-      </tr>
+  <div class="panel">
+
+    <div class="scroll">
+    <table>
+      <thead><tr>
+        <th class="tm">Team</th><th>W</th><th>L</th><th>T</th>
+        <th>Pts</th><th>GD</th><th>GF</th><th>GA</th>
+      </tr></thead>
+      <tbody>
+      {{ range .Standings }}
+        <tr>
+          <td class="tm">{{ .Team }}</td>
+          <td>{{ .Wins }}</td><td>{{ .Losses }}</td><td>{{ .Ties }}</td>
+          <td class="pts">{{ .TotalPoints }}</td>
+          <td>{{ .GoalDiff }}</td><td>{{ .GoalsFor }}</td><td>{{ .GoalsAgainst }}</td>
+        </tr>
+      {{ end }}
+      </tbody>
+    </table>
+    </div>
+
+    {{ if .Today }}
+      <h3>Today</h3>
+      {{ range .Today }}{{ template "gamecard" . }}{{ end }}
     {{ end }}
-    </tbody>
-  </table>
+
+    {{ if .Recent }}
+      <h3>Recent results</h3>
+      {{ range .Recent }}{{ template "gamecard" . }}{{ end }}
+    {{ end }}
+
+    {{ if .Upcoming }}
+      <h3>Next 7 days</h3>
+      {{ range .Upcoming }}{{ template "gamecard" . }}{{ end }}
+    {{ end }}
+
+    {{ if not .HasSchedule }}
+      <p class="empty">{{ if $.SeasonSoon }}Season hasn’t started — first matches are Aug 22.{{ else }}No games in the last or next 7 days.{{ end }}</p>
+    {{ end }}
+
+    <p class="src"><a href="{{ .URL }}">Full schedule on uysa.sportsaffinity.com →</a></p>
   </div>
 </details>
 {{ end }}
-
-<h2>Today</h2>
-{{ if .Today }}{{ range .Today }}{{ template "gamecard" . }}{{ end }}
-{{ else }}<p class="empty">No games today.</p>{{ end }}
-
-<h2>Recent results</h2>
-{{ if .Recent }}{{ range .Recent }}{{ template "gamecard" . }}{{ end }}
-{{ else }}<p class="empty">{{ if .SeasonSoon }}Season hasn’t started — first matches are Aug 22.{{ else }}Nothing in the last 7 days.{{ end }}</p>{{ end }}
-
-<h2>Next 7 days</h2>
-{{ if .Upcoming }}{{ range .Upcoming }}{{ template "gamecard" . }}{{ end }}
-{{ else }}<p class="empty">Nothing scheduled in the next 7 days.</p>{{ end }}
 
 <footer>
   Scraped from <a href="https://uysa.sportsaffinity.com/">uysa.sportsaffinity.com</a>.<br>

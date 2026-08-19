@@ -14,32 +14,60 @@ import (
 //go:embed templates/*.tmpl
 var files embed.FS
 
-// Window is how far forward and back the summary sections reach.
+// Window is how far forward and back each flight's schedule reaches.
 const Window = 7 * 24 * time.Hour
+
+// DefaultOpen is the one flight expanded on load, so the page is useful
+// without a tap. Everything else stays collapsed to keep the page short.
+const DefaultOpen = "metroa"
+
+// FlightView is one collapsible flight card: its standings and its own
+// schedule. Games never appear outside the flight they belong to.
+type FlightView struct {
+	Slug      string
+	Name      string
+	URL       string
+	Open      bool
+	Standings []model.Standing
+	Today     []model.Game
+	Recent    []model.Game
+	Upcoming  []model.Game
+}
+
+// HasSchedule reports whether any windowed section has games to show.
+func (f FlightView) HasSchedule() bool {
+	return len(f.Today)+len(f.Recent)+len(f.Upcoming) > 0
+}
 
 // View is the shape the template consumes.
 type View struct {
 	GeneratedAt time.Time
-	Today       []model.Game
-	Recent      []model.Game
-	Upcoming    []model.Game
-	Flights     []model.Flight
-	SeasonSoon  bool // true before any result exists, to explain the empty sections
+	Flights     []FlightView
+	SeasonSoon  bool // true before any result exists, to explain empty sections
 }
 
-// BuildView slices the dataset into the glance sections, relative to now.
+// BuildView slices each flight into its own glance sections, relative to now.
 func BuildView(site model.Site, now time.Time) View {
 	loc := now.Location()
 	y, m, d := now.Date()
 	dayStart := time.Date(y, m, d, 0, 0, 0, 0, loc)
 	dayEnd := dayStart.AddDate(0, 0, 1)
 
-	v := View{GeneratedAt: site.GeneratedAt, Flights: site.Flights}
-	// The source page lists teams by slot (A1, A2, ...); rank them instead.
-	for i := range v.Flights {
-		rows := append([]model.Standing(nil), v.Flights[i].Standings...)
-		sort.SliceStable(rows, func(a, b int) bool {
-			x, y := rows[a], rows[b]
+	v := View{GeneratedAt: site.GeneratedAt}
+	played := 0
+
+	for _, f := range site.Flights {
+		fv := FlightView{
+			Slug: f.Slug,
+			Name: f.Name,
+			URL:  f.URL,
+			Open: f.Slug == DefaultOpen,
+		}
+
+		// The source page lists teams by slot (A1, A2, ...); rank them instead.
+		fv.Standings = append([]model.Standing(nil), f.Standings...)
+		sort.SliceStable(fv.Standings, func(a, b int) bool {
+			x, y := fv.Standings[a], fv.Standings[b]
 			if x.TotalPoints != y.TotalPoints {
 				return x.TotalPoints > y.TotalPoints
 			}
@@ -48,37 +76,36 @@ func BuildView(site model.Site, now time.Time) View {
 			}
 			return x.GoalsFor > y.GoalsFor
 		})
-		v.Flights[i].Standings = rows
-	}
-	var all []model.Game
-	for _, f := range site.Flights {
-		all = append(all, f.Games...)
-	}
-	sort.Slice(all, func(i, j int) bool {
-		if all[i].Kickoff.Equal(all[j].Kickoff) {
-			return all[i].Number < all[j].Number
-		}
-		return all[i].Kickoff.Before(all[j].Kickoff)
-	})
 
-	played := 0
-	for _, g := range all {
-		switch {
-		case !g.Kickoff.Before(dayStart) && g.Kickoff.Before(dayEnd):
-			v.Today = append(v.Today, g)
-		case g.Kickoff.Before(dayStart) && g.Kickoff.After(now.Add(-Window)):
-			v.Recent = append(v.Recent, g)
-		case !g.Kickoff.Before(dayEnd) && g.Kickoff.Before(now.Add(Window)):
-			v.Upcoming = append(v.Upcoming, g)
+		games := append([]model.Game(nil), f.Games...)
+		sort.Slice(games, func(i, j int) bool {
+			if games[i].Kickoff.Equal(games[j].Kickoff) {
+				return games[i].Number < games[j].Number
+			}
+			return games[i].Kickoff.Before(games[j].Kickoff)
+		})
+
+		for _, g := range games {
+			switch {
+			case !g.Kickoff.Before(dayStart) && g.Kickoff.Before(dayEnd):
+				fv.Today = append(fv.Today, g)
+			case g.Kickoff.Before(dayStart) && g.Kickoff.After(now.Add(-Window)):
+				fv.Recent = append(fv.Recent, g)
+			case !g.Kickoff.Before(dayEnd) && g.Kickoff.Before(now.Add(Window)):
+				fv.Upcoming = append(fv.Upcoming, g)
+			}
+			if g.Played() {
+				played++
+			}
 		}
-		if g.Played() {
-			played++
+		// Most recent first reads better for results.
+		for i, j := 0, len(fv.Recent)-1; i < j; i, j = i+1, j-1 {
+			fv.Recent[i], fv.Recent[j] = fv.Recent[j], fv.Recent[i]
 		}
+
+		v.Flights = append(v.Flights, fv)
 	}
-	// Most recent first reads better for results.
-	for i, j := 0, len(v.Recent)-1; i < j; i, j = i+1, j-1 {
-		v.Recent[i], v.Recent[j] = v.Recent[j], v.Recent[i]
-	}
+
 	v.SeasonSoon = played == 0
 	return v
 }
