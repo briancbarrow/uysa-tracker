@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T17:48:52.953422558-06:00",
+  "generatedAt": "2026-08-18T19:15:25.559787427-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -1005,21 +1005,6 @@
           "awayScore": null
         },
         {
-          "number": "674209",
-          "flightSlug": "division3",
-          "flightName": "Boys 13U Division 3",
-          "kickoff": "2026-08-29T11:45:00-06:00",
-          "rawDate": "Saturday, August 29, 2026",
-          "rawTime": "11:45 AM",
-          "venue": "Lakeside Sports Complex",
-          "field": "5124",
-          "matchup": "A11 vs A6",
-          "home": "Celtic BU13 - Enriquez",
-          "away": "Blue Knights U13 B13/14 (JE)",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
           "number": "674236",
           "flightSlug": "division3",
           "flightName": "Boys 13U Division 3",
@@ -1256,21 +1241,6 @@
           "matchup": "A10 vs A5",
           "home": "Elko Elite BU13 IND",
           "away": "Metasport FC 13/14B U13 KR (SFC)",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "number": "674217",
-          "flightSlug": "division3",
-          "flightName": "Boys 13U Division 3",
-          "kickoff": "2026-09-19T10:30:00-06:00",
-          "rawDate": "Saturday, September 19, 2026",
-          "rawTime": "10:30 AM",
-          "venue": "Provo - Epic Sports Park",
-          "field": "TBDA",
-          "matchup": "A8 vs A11",
-          "home": "Liverpool FC IA - Premier 13-14",
-          "away": "Celtic BU13 - Enriquez",
           "homeScore": null,
           "awayScore": null
         },
@@ -1605,6 +1575,21 @@
           "awayScore": null
         },
         {
+          "number": "674217",
+          "flightSlug": "division3",
+          "flightName": "Boys 13U Division 3",
+          "kickoff": "2026-10-05T17:30:00-06:00",
+          "rawDate": "Monday, October 05, 2026",
+          "rawTime": "05:30 PM",
+          "venue": "Provo - Epic Sports Park",
+          "field": "TBDA",
+          "matchup": "A8 vs A11",
+          "home": "Liverpool FC IA - Premier 13-14",
+          "away": "Celtic BU13 - Enriquez",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
           "number": "674229",
           "flightSlug": "division3",
           "flightName": "Boys 13U Division 3",
@@ -1676,6 +1661,21 @@
           "matchup": "A2 vs A5",
           "home": "Summit FC 13/14B - JW",
           "away": "Metasport FC 13/14B U13 KR (SFC)",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "number": "674209",
+          "flightSlug": "division3",
+          "flightName": "Boys 13U Division 3",
+          "kickoff": "2026-10-21T19:00:00-06:00",
+          "rawDate": "Wednesday, October 21, 2026",
+          "rawTime": "07:00 PM",
+          "venue": "Lakeside Sports Complex",
+          "field": "5124",
+          "matchup": "A11 vs A6",
+          "home": "Celtic BU13 - Enriquez",
+          "away": "Blue Knights U13 B13/14 (JE)",
           "homeScore": null,
           "awayScore": null
         },
