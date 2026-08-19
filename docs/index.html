@@ -7,11 +7,11 @@
 <style>
 :root{
   --bg:#f6f7f9; --card:#fff; --ink:#16181d; --muted:#6b7280;
-  --line:#e3e6ea; --accent:#1a6b3c; --chip:#eef1f4;
+  --line:#e3e6ea; --accent:#1a6b3c; --chip:#eef1f4; --favbg:#e8f5ec;
 }
 @media (prefers-color-scheme:dark){
   :root{ --bg:#111317; --card:#1a1d23; --ink:#e8eaed; --muted:#9aa1ab;
-         --line:#2a2f37; --accent:#4ade80; --chip:#242830; }
+         --line:#2a2f37; --accent:#4ade80; --chip:#242830; --favbg:#16281d; }
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px 12px 48px;background:var(--bg);color:var(--ink);
@@ -47,6 +47,11 @@ th{color:var(--muted);font-weight:600;font-size:.72rem;text-transform:uppercase}
 td.tm,th.tm{text-align:left;white-space:normal;min-width:150px}
 tbody tr:first-child td{border-top:1px solid var(--line)}
 td.pts{font-weight:700}
+.favrow td{background:var(--favbg);font-weight:650}
+.favrow td.tm{box-shadow:inset 3px 0 0 var(--accent)}
+.favgame{background:var(--favbg) !important;
+  box-shadow:inset 3px 0 0 var(--accent)!important;padding-left:9px!important}
+.team.fav{font-weight:700}
 .panel{padding:0 12px 12px}
 .panel .card{background:transparent;border:0;border-top:1px solid var(--line);
   border-radius:0;padding:9px 2px;margin:0}
@@ -55,6 +60,8 @@ td.pts{font-weight:700}
 .panel table{margin-bottom:2px}
 .src{margin:14px 0 0;font-size:.76rem}
 .src a{color:var(--muted)}
+.refresh{display:inline-block;margin-top:8px;font-weight:600;color:var(--accent)}
+.hint{display:block;margin-top:2px;opacity:.75}
 footer{margin-top:32px;color:var(--muted);font-size:.76rem;text-align:center}
 a{color:inherit}
 </style>
@@ -62,7 +69,7 @@ a{color:inherit}
 <body>
 
 <h1>Boys 13U — Scores &amp; Standings</h1>
-<p class="sub">Utah Youth Soccer · 2026 Fall · updated Wed Aug 19, 6:34 AM MDT</p>
+<p class="sub">Utah Youth Soccer · 2026 Fall · updated Wed Aug 19, 6:39 AM MDT</p>
 
 
 
@@ -354,7 +361,7 @@ a{color:inherit}
           <td>0</td><td>0</td><td>0</td>
         </tr>
       
-        <tr>
+        <tr class="favrow">
           <td class="tm">Copper Mountain 7 ZP/ZN</td>
           <td>0</td><td>0</td><td>0</td>
           <td class="pts">0</td>
@@ -643,7 +650,9 @@ a{color:inherit}
 
 <footer>
   Scraped from <a href="https://uysa.sportsaffinity.com/">uysa.sportsaffinity.com</a>.<br>
-  Last updated Wed Aug 19, 6:34 AM MDT.
+  Last updated Wed Aug 19, 6:39 AM MDT.<br>
+  <a class="refresh" href="https://github.com/briancbarrow/uysa-tracker/actions/workflows/scrape.yml">Refresh now →</a>
+  <span class="hint">(sign in to GitHub, press “Run workflow”, then reload here in about a minute)</span>
 </footer>
 
 </body>

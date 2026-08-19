@@ -7,11 +7,11 @@
 <style>
 :root{
   --bg:#f6f7f9; --card:#fff; --ink:#16181d; --muted:#6b7280;
-  --line:#e3e6ea; --accent:#1a6b3c; --chip:#eef1f4;
+  --line:#e3e6ea; --accent:#1a6b3c; --chip:#eef1f4; --favbg:#e8f5ec;
 }
 @media (prefers-color-scheme:dark){
   :root{ --bg:#111317; --card:#1a1d23; --ink:#e8eaed; --muted:#9aa1ab;
-         --line:#2a2f37; --accent:#4ade80; --chip:#242830; }
+         --line:#2a2f37; --accent:#4ade80; --chip:#242830; --favbg:#16281d; }
 }
 *{box-sizing:border-box}
 body{margin:0;padding:16px 12px 48px;background:var(--bg);color:var(--ink);
@@ -47,6 +47,11 @@ th{color:var(--muted);font-weight:600;font-size:.72rem;text-transform:uppercase}
 td.tm,th.tm{text-align:left;white-space:normal;min-width:150px}
 tbody tr:first-child td{border-top:1px solid var(--line)}
 td.pts{font-weight:700}
+.favrow td{background:var(--favbg);font-weight:650}
+.favrow td.tm{box-shadow:inset 3px 0 0 var(--accent)}
+.favgame{background:var(--favbg) !important;
+  box-shadow:inset 3px 0 0 var(--accent)!important;padding-left:9px!important}
+.team.fav{font-weight:700}
 .panel{padding:0 12px 12px}
 .panel .card{background:transparent;border:0;border-top:1px solid var(--line);
   border-radius:0;padding:9px 2px;margin:0}
@@ -55,6 +60,8 @@ td.pts{font-weight:700}
 .panel table{margin-bottom:2px}
 .src{margin:14px 0 0;font-size:.76rem}
 .src a{color:var(--muted)}
+.refresh{display:inline-block;margin-top:8px;font-weight:600;color:var(--accent)}
+.hint{display:block;margin-top:2px;opacity:.75}
 footer{margin-top:32px;color:var(--muted);font-size:.76rem;text-align:center}
 a{color:inherit}
 </style>
@@ -65,13 +72,13 @@ a{color:inherit}
 <p class="sub">Utah Youth Soccer · 2026 Fall · updated {{ stamp .GeneratedAt }}</p>
 
 {{ define "gamecard" }}
-<div class="card game">
+<div class="card game{{ if .Fav }} favgame{{ end }}">
   <div class="teams">
-    <span class="team{{ if winner . "home" }} win{{ end }}">{{ .Home }}</span>
-    <span class="team{{ if winner . "away" }} win{{ end }}">{{ .Away }}</span>
+    <span class="team{{ if winner .Game "home" }} win{{ end }}{{ if eq .Home $.FavName }} fav{{ end }}">{{ .Home }}</span>
+    <span class="team{{ if winner .Game "away" }} win{{ end }}{{ if eq .Away $.FavName }} fav{{ end }}">{{ .Away }}</span>
   </div>
   <div style="text-align:right">
-    {{ with score . }}<div class="sc">{{ . }}</div>
+    {{ with score .Game }}<div class="sc">{{ . }}</div>
     {{ else }}<div class="when">{{ clock .Kickoff }}</div>{{ end }}
   </div>
   <div class="meta">{{ day .Kickoff }} · {{ .Venue }}{{ with .Field }} · Field {{ . }}{{ end }}</div>
@@ -91,7 +98,7 @@ a{color:inherit}
       </tr></thead>
       <tbody>
       {{ range .Standings }}
-        <tr>
+        <tr{{ if .Fav }} class="favrow"{{ end }}>
           <td class="tm">{{ .Team }}</td>
           <td>{{ .Wins }}</td><td>{{ .Losses }}</td><td>{{ .Ties }}</td>
           <td class="pts">{{ .TotalPoints }}</td>
@@ -104,17 +111,17 @@ a{color:inherit}
 
     {{ if .Today }}
       <h3>Today</h3>
-      {{ range .Today }}{{ template "gamecard" . }}{{ end }}
+      {{ range .Today }}{{ template "gamecard" (card . $.FavoriteName) }}{{ end }}
     {{ end }}
 
     {{ if .Recent }}
       <h3>Recent results</h3>
-      {{ range .Recent }}{{ template "gamecard" . }}{{ end }}
+      {{ range .Recent }}{{ template "gamecard" (card . $.FavoriteName) }}{{ end }}
     {{ end }}
 
     {{ if .Upcoming }}
       <h3>Next 7 days</h3>
-      {{ range .Upcoming }}{{ template "gamecard" . }}{{ end }}
+      {{ range .Upcoming }}{{ template "gamecard" (card . $.FavoriteName) }}{{ end }}
     {{ end }}
 
     {{ if not .HasSchedule }}
@@ -128,7 +135,9 @@ a{color:inherit}
 
 <footer>
   Scraped from <a href="https://uysa.sportsaffinity.com/">uysa.sportsaffinity.com</a>.<br>
-  Last updated {{ stamp .GeneratedAt }}.
+  Last updated {{ stamp .GeneratedAt }}.<br>
+  <a class="refresh" href="{{ .RefreshURL }}">Refresh now →</a>
+  <span class="hint">(sign in to GitHub, press “Run workflow”, then reload here in about a minute)</span>
 </footer>
 
 </body>
