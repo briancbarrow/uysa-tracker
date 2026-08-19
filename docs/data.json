@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T20:38:58.401282134-06:00",
+  "generatedAt": "2026-08-18T21:30:18.543085123-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -433,6 +433,21 @@
           "awayScore": null
         },
         {
+          "number": "672252",
+          "flightSlug": "premier",
+          "flightName": "Boys 13U Premier",
+          "kickoff": "2026-09-22T17:30:00-06:00",
+          "rawDate": "Tuesday, September 22, 2026",
+          "rawTime": "05:30 PM",
+          "venue": "Bonneville ES (OREM)",
+          "field": "5690",
+          "matchup": "A1 vs A8",
+          "home": "Utah Rush B13 LM",
+          "away": "La Roca U12B- J Walker Pre ECNL",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
           "number": "672247",
           "flightSlug": "premier",
           "flightName": "Boys 13U Premier",
@@ -624,21 +639,6 @@
           "matchup": "A2 vs A7",
           "home": "La Roca U13B- C Santos ECNL RL",
           "away": "Peak SC 13/14B MH Black",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "number": "672252",
-          "flightSlug": "premier",
-          "flightName": "Boys 13U Premier",
-          "kickoff": "2026-10-24T08:30:00-06:00",
-          "rawDate": "Saturday, October 24, 2026",
-          "rawTime": "08:30 AM",
-          "venue": "Orem JH",
-          "field": "5262",
-          "matchup": "A1 vs A8",
-          "home": "Utah Rush B13 LM",
-          "away": "La Roca U12B- J Walker Pre ECNL",
           "homeScore": null,
           "awayScore": null
         },
