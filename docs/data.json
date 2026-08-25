@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T22:23:28.290520069-06:00",
+  "generatedAt": "2026-08-24T22:10:23.120238354-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -22,6 +22,23 @@
           "goalsFor": 2,
           "shutouts": 0,
           "yellow": 1,
+          "red": 0
+        },
+        {
+          "slot": "A3",
+          "group": "A",
+          "teamCode": "0213-01CB13-1151",
+          "team": "Copper Mountain 7 JM",
+          "wins": 0,
+          "losses": 0,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 1,
+          "goalDiff": 0,
+          "goalsAgainst": 1,
+          "goalsFor": 1,
+          "shutouts": 0,
+          "yellow": 0,
           "red": 0
         },
         {
@@ -54,6 +71,23 @@
           "goalDiff": 0,
           "goalsAgainst": 2,
           "goalsFor": 2,
+          "shutouts": 0,
+          "yellow": 0,
+          "red": 0
+        },
+        {
+          "slot": "A9",
+          "group": "A",
+          "teamCode": "0402-01CB13-1439",
+          "team": "Wasatch SC 14/13B - AM",
+          "wins": 0,
+          "losses": 0,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 1,
+          "goalDiff": 0,
+          "goalsAgainst": 1,
+          "goalsFor": 1,
           "shutouts": 0,
           "yellow": 0,
           "red": 0
@@ -110,44 +144,10 @@
           "red": 0
         },
         {
-          "slot": "A3",
-          "group": "A",
-          "teamCode": "0213-01CB13-1151",
-          "team": "Copper Mountain 7 JM",
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 0,
-          "goalDiff": 0,
-          "goalsAgainst": 0,
-          "goalsFor": 0,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A4",
           "group": "A",
           "teamCode": "0106-01CB13-2091",
           "team": "Murray S.C. U13 Boys Black TP",
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 0,
-          "goalDiff": 0,
-          "goalsAgainst": 0,
-          "goalsFor": 0,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A9",
-          "group": "A",
-          "teamCode": "0402-01CB13-1439",
-          "team": "Wasatch SC 14/13B - AM",
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -204,8 +204,8 @@
           "matchup": "A9 vs A3",
           "home": "Wasatch SC 14/13B - AM",
           "away": "Copper Mountain 7 JM",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 1
         },
         {
           "number": "672231",
@@ -1903,21 +1903,6 @@
           "awayScore": 2
         },
         {
-          "number": "655958",
-          "flightSlug": "metroa",
-          "flightName": "Boys 13U Metro A",
-          "kickoff": "2026-08-22T14:55:00-06:00",
-          "rawDate": "Saturday, August 22, 2026",
-          "rawTime": "02:55 PM",
-          "venue": "Oquirrh Shadow Park",
-          "field": "2053",
-          "matchup": "A5 vs A8",
-          "home": "Copper Mountain 7 BH",
-          "away": "Utah Glory BU13 Black NV",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
           "number": "655986",
           "flightSlug": "metroa",
           "flightName": "Boys 13U Metro A",
@@ -2169,6 +2154,21 @@
           "matchup": "A7 vs A3",
           "home": "Murray S.C. U13 Boys Orange RL",
           "away": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-AC1",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "number": "655958",
+          "flightSlug": "metroa",
+          "flightName": "Boys 13U Metro A",
+          "kickoff": "2026-09-21T17:30:00-06:00",
+          "rawDate": "Monday, September 21, 2026",
+          "rawTime": "05:30 PM",
+          "venue": "Oquirrh Shadow Park",
+          "field": "2053",
+          "matchup": "A5 vs A8",
+          "home": "Copper Mountain 7 BH",
+          "away": "Utah Glory BU13 Black NV",
           "homeScore": null,
           "awayScore": null
         },
