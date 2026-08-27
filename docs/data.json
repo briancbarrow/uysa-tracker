@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T22:11:35.439534103-06:00",
+  "generatedAt": "2026-08-27T07:48:48.300776913-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -7,6 +7,23 @@
       "name": "Boys 13U Premier",
       "url": "https://uysa.sportsaffinity.com/tour/public/info/schedule_results2.asp?sessionguid=\u0026flightguid=66DD5A39-2C01-4E6B-B14A-77B55AC36027\u0026tournamentguid=69C35A62-D325-418C-95D3-C61FA95030D3",
       "standings": [
+        {
+          "slot": "A2",
+          "group": "A",
+          "teamCode": "0436-03SB13-0263",
+          "team": "La Roca U13B- C Santos ECNL RL",
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 3,
+          "goalDiff": 4,
+          "goalsAgainst": 1,
+          "goalsFor": 8,
+          "shutouts": 0,
+          "yellow": 0,
+          "red": 0
+        },
         {
           "slot": "A7",
           "group": "A",
@@ -110,44 +127,27 @@
           "red": 0
         },
         {
-          "slot": "A1",
-          "group": "A",
-          "teamCode": "0571-01CB13-0019",
-          "team": "Utah Rush B13 LM",
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 0,
-          "goalDiff": 0,
-          "goalsAgainst": 0,
-          "goalsFor": 0,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A2",
-          "group": "A",
-          "teamCode": "0436-03SB13-0263",
-          "team": "La Roca U13B- C Santos ECNL RL",
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 0,
-          "goalDiff": 0,
-          "goalsAgainst": 0,
-          "goalsFor": 0,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A4",
           "group": "A",
           "teamCode": "0106-01CB13-2091",
           "team": "Murray S.C. U13 Boys Black TP",
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 0,
+          "goalDiff": -4,
+          "goalsAgainst": 8,
+          "goalsFor": 1,
+          "shutouts": 0,
+          "yellow": 0,
+          "red": 0
+        },
+        {
+          "slot": "A1",
+          "group": "A",
+          "teamCode": "0571-01CB13-0019",
+          "team": "Utah Rush B13 LM",
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -219,8 +219,8 @@
           "matchup": "A2 vs A4",
           "home": "La Roca U13B- C Santos ECNL RL",
           "away": "Murray S.C. U13 Boys Black TP",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 8,
+          "awayScore": 1
         },
         {
           "number": "672232",
@@ -711,6 +711,23 @@
       "url": "https://uysa.sportsaffinity.com/tour/public/info/schedule_results2.asp?sessionguid=\u0026flightguid=86FD18DF-E48F-4C70-B14F-A6535C269A1E\u0026tournamentguid=69C35A62-D325-418C-95D3-C61FA95030D3",
       "standings": [
         {
+          "slot": "A5",
+          "group": "A",
+          "teamCode": "0430-05CB13-9964",
+          "team": "Metasport FC 13/14B U13 KR (SFC)",
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 3,
+          "goalDiff": 4,
+          "goalsAgainst": 0,
+          "goalsFor": 5,
+          "shutouts": 1,
+          "yellow": 0,
+          "red": 0
+        },
+        {
           "slot": "A9",
           "group": "A",
           "teamCode": "0437-01CB13-0356",
@@ -813,6 +830,23 @@
           "red": 0
         },
         {
+          "slot": "A6",
+          "group": "A",
+          "teamCode": "0118-01CB13-1422",
+          "team": "Blue Knights U13 B13/14 (JE)",
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 0,
+          "goalDiff": -4,
+          "goalsAgainst": 5,
+          "goalsFor": 0,
+          "shutouts": 0,
+          "yellow": 0,
+          "red": 0
+        },
+        {
           "slot": "A1",
           "group": "A",
           "teamCode": "0558-02CB13-0404",
@@ -851,40 +885,6 @@
           "group": "A",
           "teamCode": "0558-02CB13-8655",
           "team": "Celtic BU13 - Enriquez",
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 0,
-          "goalDiff": 0,
-          "goalsAgainst": 0,
-          "goalsFor": 0,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A5",
-          "group": "A",
-          "teamCode": "0430-05CB13-9964",
-          "team": "Metasport FC 13/14B U13 KR (SFC)",
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 0,
-          "goalDiff": 0,
-          "goalsAgainst": 0,
-          "goalsFor": 0,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A6",
-          "group": "A",
-          "teamCode": "0118-01CB13-1422",
-          "team": "Blue Knights U13 B13/14 (JE)",
           "wins": 0,
           "losses": 0,
           "ties": 0,
@@ -956,8 +956,8 @@
           "matchup": "A5 vs A6",
           "home": "Metasport FC 13/14B U13 KR (SFC)",
           "away": "Blue Knights U13 B13/14 (JE)",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 5,
+          "awayScore": 0
         },
         {
           "number": "674238",
