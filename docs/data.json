@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T04:02:22.59336114-06:00",
+  "generatedAt": "2026-09-01T02:52:24.570493764-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -768,9 +768,9 @@
           "team": "Liverpool FC IA - Premier 13-14",
           "wins": 0,
           "losses": 0,
-          "ties": 3,
+          "ties": 2,
           "pointsDed": 0,
-          "totalPoints": 3,
+          "totalPoints": 2,
           "goalDiff": 0,
           "goalsAgainst": 5,
           "goalsFor": 5,
@@ -813,23 +813,6 @@
           "red": 0
         },
         {
-          "slot": "A3",
-          "group": "A",
-          "teamCode": "0538-01CB13-2456",
-          "team": "Nebo United U13 - CG",
-          "wins": 0,
-          "losses": 1,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 1,
-          "goalDiff": -1,
-          "goalsAgainst": 1,
-          "goalsFor": 0,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A4",
           "group": "A",
           "teamCode": "0437-01CB13-0352",
@@ -858,6 +841,23 @@
           "totalPoints": 1,
           "goalDiff": -4,
           "goalsAgainst": 5,
+          "goalsFor": 0,
+          "shutouts": 0,
+          "yellow": 0,
+          "red": 0
+        },
+        {
+          "slot": "A3",
+          "group": "A",
+          "teamCode": "0538-01CB13-2456",
+          "team": "Nebo United U13 - CG",
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 0,
+          "goalDiff": -1,
+          "goalsAgainst": 1,
           "goalsFor": 0,
           "shutouts": 0,
           "yellow": 0,
@@ -1031,8 +1031,8 @@
           "matchup": "A8 vs A3",
           "home": "Liverpool FC IA - Premier 13-14",
           "away": "Nebo United U13 - CG",
-          "homeScore": 0,
-          "awayScore": 0
+          "homeScore": null,
+          "awayScore": null
         },
         {
           "number": "674245",
