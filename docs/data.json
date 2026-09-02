@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T02:52:24.570493764-06:00",
+  "generatedAt": "2026-09-02T02:06:06.406921028-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -1413,9 +1413,9 @@
           "number": "674248",
           "flightSlug": "division3",
           "flightName": "Boys 13U Division 3",
-          "kickoff": "2026-09-26T11:30:00-06:00",
+          "kickoff": "2026-09-26T12:00:00-06:00",
           "rawDate": "Saturday, September 26, 2026",
-          "rawTime": "11:30 AM",
+          "rawTime": "12:00 PM",
           "venue": "Ellison Park",
           "field": "#1",
           "matchup": "A4 vs A7",
@@ -2164,8 +2164,8 @@
           "kickoff": "2026-09-21T17:30:00-06:00",
           "rawDate": "Monday, September 21, 2026",
           "rawTime": "05:30 PM",
-          "venue": "Oquirrh Shadow Park",
-          "field": "2053",
+          "venue": "Monarch Meadows Park",
+          "field": "4049",
           "matchup": "A5 vs A8",
           "home": "Copper Mountain 7 BH",
           "away": "Utah Glory BU13 Black NV",
@@ -3238,21 +3238,6 @@
           "awayScore": null
         },
         {
-          "number": "656064",
-          "flightSlug": "metrob",
-          "flightName": "Boys 13U Metro B",
-          "kickoff": "2026-10-13T17:30:00-06:00",
-          "rawDate": "Tuesday, October 13, 2026",
-          "rawTime": "05:30 PM",
-          "venue": "Monarch Meadows Park",
-          "field": "4049",
-          "matchup": "A8 vs A6",
-          "home": "Copper Mountain 7 CT",
-          "away": "Copper Mountain 7 JB",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
           "number": "656052",
           "flightSlug": "metrob",
           "flightName": "Boys 13U Metro B",
@@ -3279,6 +3264,21 @@
           "matchup": "A1 vs A10",
           "home": "Avalanche U13B Blue SL",
           "away": "Razzia FC Hawks",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "number": "656064",
+          "flightSlug": "metrob",
+          "flightName": "Boys 13U Metro B",
+          "kickoff": "2026-10-27T17:15:00-06:00",
+          "rawDate": "Tuesday, October 27, 2026",
+          "rawTime": "05:15 PM",
+          "venue": "Oquirrh Shadow Park",
+          "field": "2053",
+          "matchup": "A8 vs A6",
+          "home": "Copper Mountain 7 CT",
+          "away": "Copper Mountain 7 JB",
           "homeScore": null,
           "awayScore": null
         }
