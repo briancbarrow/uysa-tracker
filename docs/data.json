@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T02:06:06.406921028-06:00",
+  "generatedAt": "2026-09-03T02:15:24.404263001-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -7,23 +7,6 @@
       "name": "Boys 13U Premier",
       "url": "https://uysa.sportsaffinity.com/tour/public/info/schedule_results2.asp?sessionguid=\u0026flightguid=66DD5A39-2C01-4E6B-B14A-77B55AC36027\u0026tournamentguid=69C35A62-D325-418C-95D3-C61FA95030D3",
       "standings": [
-        {
-          "slot": "A7",
-          "group": "A",
-          "teamCode": "0471-01CB13-0057",
-          "team": "Peak SC 13/14B MH Black",
-          "wins": 1,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": 1,
-          "goalsAgainst": 1,
-          "goalsFor": 2,
-          "shutouts": 0,
-          "yellow": 1,
-          "red": 0
-        },
         {
           "slot": "A2",
           "group": "A",
@@ -42,6 +25,23 @@
           "red": 0
         },
         {
+          "slot": "A7",
+          "group": "A",
+          "teamCode": "0471-01CB13-0057",
+          "team": "Peak SC 13/14B MH Black",
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 3,
+          "goalDiff": 1,
+          "goalsAgainst": 1,
+          "goalsFor": 2,
+          "shutouts": 0,
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "slot": "A6",
           "group": "A",
           "teamCode": "0436-05PB13-0011",
@@ -56,6 +56,23 @@
           "goalsFor": 5,
           "shutouts": 1,
           "yellow": 2,
+          "red": 0
+        },
+        {
+          "slot": "A4",
+          "group": "A",
+          "teamCode": "0106-01CB13-2091",
+          "team": "Murray S.C. U13 Boys Black TP",
+          "wins": 1,
+          "losses": 1,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 3,
+          "goalDiff": -3,
+          "goalsAgainst": 9,
+          "goalsFor": 3,
+          "shutouts": 0,
+          "yellow": 0,
           "red": 0
         },
         {
@@ -115,30 +132,13 @@
           "teamCode": "0402-01CB13-1439",
           "team": "Wasatch SC 14/13B - AM",
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "ties": 1,
           "pointsDed": 0,
           "totalPoints": 1,
-          "goalDiff": -4,
-          "goalsAgainst": 5,
-          "goalsFor": 1,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A4",
-          "group": "A",
-          "teamCode": "0106-01CB13-2091",
-          "team": "Murray S.C. U13 Boys Black TP",
-          "wins": 0,
-          "losses": 1,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 0,
-          "goalDiff": -4,
-          "goalsAgainst": 8,
-          "goalsFor": 1,
+          "goalDiff": -5,
+          "goalsAgainst": 7,
+          "goalsFor": 2,
           "shutouts": 0,
           "yellow": 0,
           "red": 0
@@ -244,13 +244,13 @@
           "kickoff": "2026-09-02T18:00:00-06:00",
           "rawDate": "Wednesday, September 02, 2026",
           "rawTime": "06:00 PM",
-          "venue": "Murray Park",
-          "field": "1103",
+          "venue": "Germania park",
+          "field": "1050",
           "matchup": "A4 vs A9",
           "home": "Murray S.C. U13 Boys Black TP",
           "away": "Wasatch SC 14/13B - AM",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 2,
+          "awayScore": 1
         },
         {
           "number": "672226",
@@ -424,8 +424,8 @@
           "kickoff": "2026-09-19T16:45:00-06:00",
           "rawDate": "Saturday, September 19, 2026",
           "rawTime": "04:45 PM",
-          "venue": "Murray Park",
-          "field": "1103",
+          "venue": "Germania park",
+          "field": "1050",
           "matchup": "A4 vs A6",
           "home": "Murray S.C. U13 Boys Black TP",
           "away": "La Roca U13B-M Castillo",
@@ -1018,21 +1018,6 @@
           "away": "Avalanche U13B Black DW",
           "homeScore": 6,
           "awayScore": 1
-        },
-        {
-          "number": "674249",
-          "flightSlug": "division3",
-          "flightName": "Boys 13U Division 3",
-          "kickoff": "2026-08-29T16:30:00-06:00",
-          "rawDate": "Saturday, August 29, 2026",
-          "rawTime": "04:30 PM",
-          "venue": "Provo - Epic Sports Park",
-          "field": "11",
-          "matchup": "A8 vs A3",
-          "home": "Liverpool FC IA - Premier 13-14",
-          "away": "Nebo United U13 - CG",
-          "homeScore": null,
-          "awayScore": null
         },
         {
           "number": "674245",
@@ -1723,6 +1708,21 @@
           "away": "Celtic BU13 - Fuentes",
           "homeScore": null,
           "awayScore": null
+        },
+        {
+          "number": "674249",
+          "flightSlug": "division3",
+          "flightName": "Boys 13U Division 3",
+          "kickoff": "2026-10-24T14:30:00-06:00",
+          "rawDate": "Saturday, October 24, 2026",
+          "rawTime": "02:30 PM",
+          "venue": "Lakeside Sports Complex",
+          "field": "5123",
+          "matchup": "A8 vs A3",
+          "home": "Liverpool FC IA - Premier 13-14",
+          "away": "Nebo United U13 - CG",
+          "homeScore": null,
+          "awayScore": null
         }
       ]
     },
@@ -2029,8 +2029,8 @@
           "kickoff": "2026-09-12T13:15:00-06:00",
           "rawDate": "Saturday, September 12, 2026",
           "rawTime": "01:15 PM",
-          "venue": "Murray Park",
-          "field": "1103",
+          "venue": "Germania park",
+          "field": "1050",
           "matchup": "A7 vs A1",
           "home": "Murray S.C. U13 Boys Orange RL",
           "away": "Avalanche U13B Pink WSL",
@@ -2149,8 +2149,8 @@
           "kickoff": "2026-09-19T15:15:00-06:00",
           "rawDate": "Saturday, September 19, 2026",
           "rawTime": "03:15 PM",
-          "venue": "Murray Park",
-          "field": "1103",
+          "venue": "Germania park",
+          "field": "1050",
           "matchup": "A7 vs A3",
           "home": "Murray S.C. U13 Boys Orange RL",
           "away": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-AC1",
