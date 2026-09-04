@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T02:15:24.404263001-06:00",
+  "generatedAt": "2026-09-04T02:11:13.583750922-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -8,20 +8,20 @@
       "url": "https://uysa.sportsaffinity.com/tour/public/info/schedule_results2.asp?sessionguid=\u0026flightguid=66DD5A39-2C01-4E6B-B14A-77B55AC36027\u0026tournamentguid=69C35A62-D325-418C-95D3-C61FA95030D3",
       "standings": [
         {
-          "slot": "A2",
+          "slot": "A1",
           "group": "A",
-          "teamCode": "0436-03SB13-0263",
-          "team": "La Roca U13B- C Santos ECNL RL",
+          "teamCode": "0571-01CB13-0019",
+          "team": "Utah Rush B13 LM",
           "wins": 1,
           "losses": 0,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 3,
-          "goalDiff": 4,
-          "goalsAgainst": 1,
-          "goalsFor": 8,
+          "goalDiff": 2,
+          "goalsAgainst": 2,
+          "goalsFor": 4,
           "shutouts": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0
         },
         {
@@ -37,6 +37,23 @@
           "goalDiff": 1,
           "goalsAgainst": 1,
           "goalsFor": 2,
+          "shutouts": 0,
+          "yellow": 1,
+          "red": 0
+        },
+        {
+          "slot": "A2",
+          "group": "A",
+          "teamCode": "0436-03SB13-0263",
+          "team": "La Roca U13B- C Santos ECNL RL",
+          "wins": 1,
+          "losses": 1,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 3,
+          "goalDiff": 2,
+          "goalsAgainst": 5,
+          "goalsFor": 10,
           "shutouts": 0,
           "yellow": 1,
           "red": 0
@@ -139,23 +156,6 @@
           "goalDiff": -5,
           "goalsAgainst": 7,
           "goalsFor": 2,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A1",
-          "group": "A",
-          "teamCode": "0571-01CB13-0019",
-          "team": "Utah Rush B13 LM",
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 0,
-          "goalDiff": 0,
-          "goalsAgainst": 0,
-          "goalsFor": 0,
           "shutouts": 0,
           "yellow": 0,
           "red": 0
@@ -264,8 +264,8 @@
           "matchup": "A1 vs A2",
           "home": "Utah Rush B13 LM",
           "away": "La Roca U13B- C Santos ECNL RL",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 4,
+          "awayScore": 2
         },
         {
           "number": "672255",
