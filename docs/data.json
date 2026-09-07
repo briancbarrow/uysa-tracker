@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T02:05:18.156775816-06:00",
+  "generatedAt": "2026-09-07T02:35:44.956375358-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -403,21 +403,6 @@
           "awayScore": null
         },
         {
-          "number": "672239",
-          "flightSlug": "premier",
-          "flightName": "Boys 13U Premier",
-          "kickoff": "2026-09-19T15:00:00-06:00",
-          "rawDate": "Saturday, September 19, 2026",
-          "rawTime": "03:00 PM",
-          "venue": "Lehi Family Park",
-          "field": "2",
-          "matchup": "A8 vs A2",
-          "home": "La Roca U12B- J Walker Pre ECNL",
-          "away": "La Roca U13B- C Santos ECNL RL",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
           "number": "672238",
           "flightSlug": "premier",
           "flightName": "Boys 13U Premier",
@@ -608,6 +593,21 @@
           "field": "3022",
           "matchup": "A5 vs A2",
           "home": "Avalanche U13B Black SL",
+          "away": "La Roca U13B- C Santos ECNL RL",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "number": "672239",
+          "flightSlug": "premier",
+          "flightName": "Boys 13U Premier",
+          "kickoff": "2026-10-13T17:15:00-06:00",
+          "rawDate": "Tuesday, October 13, 2026",
+          "rawTime": "05:15 PM",
+          "venue": "Lehi Family Park",
+          "field": "1",
+          "matchup": "A8 vs A2",
+          "home": "La Roca U12B- J Walker Pre ECNL",
           "away": "La Roca U13B- C Santos ECNL RL",
           "homeScore": null,
           "awayScore": null
@@ -2848,21 +2848,6 @@
           "awayScore": null
         },
         {
-          "number": "656055",
-          "flightSlug": "metrob",
-          "flightName": "Boys 13U Metro B",
-          "kickoff": "2026-09-12T12:30:00-06:00",
-          "rawDate": "Saturday, September 12, 2026",
-          "rawTime": "12:30 PM",
-          "venue": "West Jordan Complex",
-          "field": "F",
-          "matchup": "A9 vs A10",
-          "home": "7 Elite Academy BU13 Copa",
-          "away": "Razzia FC Hawks",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
           "number": "656053",
           "flightSlug": "metrob",
           "flightName": "Boys 13U Metro B",
@@ -3083,6 +3068,21 @@
           "field": "SW11",
           "matchup": "A3 vs A10",
           "home": "Cottonwood FC B1314 White JN",
+          "away": "Razzia FC Hawks",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "number": "656055",
+          "flightSlug": "metrob",
+          "flightName": "Boys 13U Metro B",
+          "kickoff": "2026-09-30T18:00:00-06:00",
+          "rawDate": "Wednesday, September 30, 2026",
+          "rawTime": "06:00 PM",
+          "venue": "West Jordan Complex",
+          "field": "F",
+          "matchup": "A9 vs A10",
+          "home": "7 Elite Academy BU13 Copa",
           "away": "Razzia FC Hawks",
           "homeScore": null,
           "awayScore": null
