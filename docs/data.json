@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T02:35:44.956375358-06:00",
+  "generatedAt": "2026-09-08T02:17:54.839427847-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -1087,7 +1087,7 @@
           "rawDate": "Saturday, September 12, 2026",
           "rawTime": "08:30 AM",
           "venue": "Provo - Epic Sports Park",
-          "field": "TBDB",
+          "field": "8",
           "matchup": "A8 vs A9",
           "home": "Liverpool FC IA - Premier 13-14",
           "away": "Strikers JH B14",
