@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T19:48:05.321952185-06:00",
+  "generatedAt": "2026-09-10T02:21:59.192777732-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -7,6 +7,23 @@
       "name": "Boys 13U Premier",
       "url": "https://uysa.sportsaffinity.com/tour/public/info/schedule_results2.asp?sessionguid=\u0026flightguid=66DD5A39-2C01-4E6B-B14A-77B55AC36027\u0026tournamentguid=69C35A62-D325-418C-95D3-C61FA95030D3",
       "standings": [
+        {
+          "slot": "A7",
+          "group": "A",
+          "teamCode": "0471-01CB13-0057",
+          "team": "Peak SC 13/14B MH Black",
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 6,
+          "goalDiff": 3,
+          "goalsAgainst": 3,
+          "goalsFor": 6,
+          "shutouts": 0,
+          "yellow": 2,
+          "red": 0
+        },
         {
           "slot": "A3",
           "group": "A",
@@ -37,23 +54,6 @@
           "goalDiff": 2,
           "goalsAgainst": 2,
           "goalsFor": 4,
-          "shutouts": 0,
-          "yellow": 1,
-          "red": 0
-        },
-        {
-          "slot": "A7",
-          "group": "A",
-          "teamCode": "0471-01CB13-0057",
-          "team": "Peak SC 13/14B MH Black",
-          "wins": 1,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": 1,
-          "goalsAgainst": 1,
-          "goalsFor": 2,
           "shutouts": 0,
           "yellow": 1,
           "red": 0
@@ -132,13 +132,13 @@
           "teamCode": "0436-03SB13-0274",
           "team": "La Roca U12B- J Walker Pre ECNL",
           "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "ties": 1,
           "pointsDed": 0,
           "totalPoints": 1,
-          "goalDiff": 0,
-          "goalsAgainst": 2,
-          "goalsFor": 2,
+          "goalDiff": -2,
+          "goalsAgainst": 6,
+          "goalsFor": 4,
           "shutouts": 0,
           "yellow": 0,
           "red": 0
@@ -294,8 +294,8 @@
           "matchup": "A7 vs A8",
           "home": "Peak SC 13/14B MH Black",
           "away": "La Roca U12B- J Walker Pre ECNL",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 4,
+          "awayScore": 2
         },
         {
           "number": "672234",
