@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T02:21:20.373922603-06:00",
+  "generatedAt": "2026-09-09T19:48:05.321952185-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -1750,23 +1750,6 @@
           "red": 0
         },
         {
-          "slot": "A3",
-          "group": "A",
-          "teamCode": "0203-01CB13-6758",
-          "team": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-AC1",
-          "wins": 1,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": 4,
-          "goalsAgainst": 0,
-          "goalsFor": 12,
-          "shutouts": 1,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A4",
           "group": "A",
           "teamCode": "02JW-01CB13-0050",
@@ -1781,6 +1764,23 @@
           "goalsFor": 2,
           "shutouts": 0,
           "yellow": 2,
+          "red": 0
+        },
+        {
+          "slot": "A3",
+          "group": "A",
+          "teamCode": "0203-01CB13-6758",
+          "team": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-AC1",
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 3,
+          "goalDiff": 4,
+          "goalsAgainst": 0,
+          "goalsFor": 12,
+          "shutouts": 1,
+          "yellow": 0,
           "red": 0
         },
         {
@@ -1805,14 +1805,31 @@
           "group": "A",
           "teamCode": "0213-01CB13-1128",
           "team": "Copper Mountain 7 ZP/ZN",
+          "wins": 1,
+          "losses": 1,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 3,
+          "goalDiff": 0,
+          "goalsAgainst": 4,
+          "goalsFor": 4,
+          "shutouts": 0,
+          "yellow": 0,
+          "red": 0
+        },
+        {
+          "slot": "A5",
+          "group": "A",
+          "teamCode": "0213-01CB13-1134",
+          "team": "Copper Mountain 7 BH",
           "wins": 0,
           "losses": 1,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 0,
           "goalDiff": -1,
-          "goalsAgainst": 2,
-          "goalsFor": 1,
+          "goalsAgainst": 3,
+          "goalsFor": 2,
           "shutouts": 0,
           "yellow": 0,
           "red": 0
@@ -1863,23 +1880,6 @@
           "totalPoints": 0,
           "goalDiff": -4,
           "goalsAgainst": 12,
-          "goalsFor": 0,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A5",
-          "group": "A",
-          "teamCode": "0213-01CB13-1134",
-          "team": "Copper Mountain 7 BH",
-          "wins": 0,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 0,
-          "goalDiff": 0,
-          "goalsAgainst": 0,
           "goalsFor": 0,
           "shutouts": 0,
           "yellow": 0,
@@ -1989,8 +1989,8 @@
           "matchup": "A5 vs A2",
           "home": "Copper Mountain 7 BH",
           "away": "Copper Mountain 7 ZP/ZN",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 2,
+          "awayScore": 3
         },
         {
           "number": "655965",
@@ -2453,6 +2453,23 @@
           "red": 0
         },
         {
+          "slot": "A6",
+          "group": "A",
+          "teamCode": "0213-01CB13-1152",
+          "team": "Copper Mountain 7 JB",
+          "wins": 2,
+          "losses": 0,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 7,
+          "goalDiff": 8,
+          "goalsAgainst": 2,
+          "goalsFor": 12,
+          "shutouts": 1,
+          "yellow": 0,
+          "red": 0
+        },
+        {
           "slot": "A2",
           "group": "A",
           "teamCode": "0101-01CB13-7831",
@@ -2483,23 +2500,6 @@
           "goalsAgainst": 5,
           "goalsFor": 13,
           "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A6",
-          "group": "A",
-          "teamCode": "0213-01CB13-1152",
-          "team": "Copper Mountain 7 JB",
-          "wins": 1,
-          "losses": 0,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 4,
-          "goalDiff": 4,
-          "goalsAgainst": 1,
-          "goalsFor": 6,
-          "shutouts": 1,
           "yellow": 0,
           "red": 0
         },
@@ -2572,23 +2572,6 @@
           "red": 1
         },
         {
-          "slot": "A10",
-          "group": "A",
-          "teamCode": "0204-01CB13-9938",
-          "team": "Razzia FC Hawks",
-          "wins": 0,
-          "losses": 1,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 0,
-          "goalDiff": -4,
-          "goalsAgainst": 6,
-          "goalsFor": 0,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A3",
           "group": "A",
           "teamCode": "0131-01CB13-5710",
@@ -2601,6 +2584,23 @@
           "goalDiff": -8,
           "goalsAgainst": 12,
           "goalsFor": 4,
+          "shutouts": 0,
+          "yellow": 0,
+          "red": 0
+        },
+        {
+          "slot": "A10",
+          "group": "A",
+          "teamCode": "0204-01CB13-9938",
+          "team": "Razzia FC Hawks",
+          "wins": 0,
+          "losses": 2,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 0,
+          "goalDiff": -8,
+          "goalsAgainst": 12,
+          "goalsFor": 1,
           "shutouts": 0,
           "yellow": 0,
           "red": 0
@@ -2769,8 +2769,8 @@
           "matchup": "A10 vs A6",
           "home": "Razzia FC Hawks",
           "away": "Copper Mountain 7 JB",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 6
         },
         {
           "number": "656062",
