@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T02:21:59.192777732-06:00",
+  "generatedAt": "2026-09-11T02:15:40.573310504-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -21,6 +21,23 @@
           "goalsAgainst": 3,
           "goalsFor": 6,
           "shutouts": 0,
+          "yellow": 2,
+          "red": 0
+        },
+        {
+          "slot": "A6",
+          "group": "A",
+          "teamCode": "0436-05PB13-0011",
+          "team": "La Roca U13B-M Castillo",
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 6,
+          "goalDiff": 5,
+          "goalsAgainst": 7,
+          "goalsFor": 13,
+          "shutouts": 2,
           "yellow": 2,
           "red": 0
         },
@@ -64,32 +81,15 @@
           "teamCode": "0436-03SB13-0263",
           "team": "La Roca U13B- C Santos ECNL RL",
           "wins": 1,
-          "losses": 1,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": 2,
-          "goalsAgainst": 5,
-          "goalsFor": 10,
-          "shutouts": 0,
-          "yellow": 1,
-          "red": 0
-        },
-        {
-          "slot": "A6",
-          "group": "A",
-          "teamCode": "0436-05PB13-0011",
-          "team": "La Roca U13B-M Castillo",
-          "wins": 1,
           "losses": 2,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 3,
-          "goalDiff": 1,
-          "goalsAgainst": 7,
-          "goalsFor": 8,
-          "shutouts": 1,
-          "yellow": 2,
+          "goalDiff": -2,
+          "goalsAgainst": 10,
+          "goalsFor": 10,
+          "shutouts": 0,
+          "yellow": 1,
           "red": 0
         },
         {
@@ -309,8 +309,8 @@
           "matchup": "A6 vs A2",
           "home": "La Roca U13B-M Castillo",
           "away": "La Roca U13B- C Santos ECNL RL",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 5,
+          "awayScore": 0
         },
         {
           "number": "672233",
