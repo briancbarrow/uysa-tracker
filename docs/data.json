@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T15:49:15.203768155-06:00",
+  "generatedAt": "2026-09-12T18:19:36.65018439-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -7,6 +7,23 @@
       "name": "Boys 13U Premier",
       "url": "https://uysa.sportsaffinity.com/tour/public/info/schedule_results2.asp?sessionguid=\u0026flightguid=66DD5A39-2C01-4E6B-B14A-77B55AC36027\u0026tournamentguid=69C35A62-D325-418C-95D3-C61FA95030D3",
       "standings": [
+        {
+          "slot": "A3",
+          "group": "A",
+          "teamCode": "0213-01CB13-1151",
+          "team": "Copper Mountain 7 JM",
+          "wins": 2,
+          "losses": 0,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 7,
+          "goalDiff": 6,
+          "goalsAgainst": 4,
+          "goalsFor": 11,
+          "shutouts": 1,
+          "yellow": 0,
+          "red": 0
+        },
         {
           "slot": "A7",
           "group": "A",
@@ -59,23 +76,6 @@
           "red": 0
         },
         {
-          "slot": "A3",
-          "group": "A",
-          "teamCode": "0213-01CB13-1151",
-          "team": "Copper Mountain 7 JM",
-          "wins": 1,
-          "losses": 0,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 4,
-          "goalDiff": 2,
-          "goalsAgainst": 4,
-          "goalsFor": 6,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A2",
           "group": "A",
           "teamCode": "0436-03SB13-0263",
@@ -110,23 +110,6 @@
           "red": 0
         },
         {
-          "slot": "A5",
-          "group": "A",
-          "teamCode": "0446-02C3B13-9254",
-          "team": "Avalanche U13B Black SL",
-          "wins": 0,
-          "losses": 0,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 1,
-          "goalDiff": 0,
-          "goalsAgainst": 2,
-          "goalsFor": 2,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A8",
           "group": "A",
           "teamCode": "0436-03SB13-0274",
@@ -139,6 +122,23 @@
           "goalDiff": -2,
           "goalsAgainst": 6,
           "goalsFor": 4,
+          "shutouts": 0,
+          "yellow": 0,
+          "red": 0
+        },
+        {
+          "slot": "A5",
+          "group": "A",
+          "teamCode": "0446-02C3B13-9254",
+          "team": "Avalanche U13B Black SL",
+          "wins": 0,
+          "losses": 1,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 1,
+          "goalDiff": -4,
+          "goalsAgainst": 7,
+          "goalsFor": 2,
           "shutouts": 0,
           "yellow": 0,
           "red": 0
@@ -339,8 +339,8 @@
           "matchup": "A5 vs A3",
           "home": "Avalanche U13B Black SL",
           "away": "Copper Mountain 7 JM",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 0,
+          "awayScore": 5
         },
         {
           "number": "672235",
@@ -724,7 +724,7 @@
           "goalsAgainst": 3,
           "goalsFor": 8,
           "shutouts": 2,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0
         },
         {
@@ -1767,6 +1767,23 @@
           "red": 0
         },
         {
+          "slot": "A3",
+          "group": "A",
+          "teamCode": "0203-01CB13-6758",
+          "team": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-AC1",
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 6,
+          "goalDiff": 8,
+          "goalsAgainst": 0,
+          "goalsFor": 20,
+          "shutouts": 2,
+          "yellow": 0,
+          "red": 0
+        },
+        {
           "slot": "A9",
           "group": "A",
           "teamCode": "0202-01CB13-9472",
@@ -1779,23 +1796,6 @@
           "goalDiff": 5,
           "goalsAgainst": 3,
           "goalsFor": 10,
-          "shutouts": 1,
-          "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A3",
-          "group": "A",
-          "teamCode": "0203-01CB13-6758",
-          "team": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-AC1",
-          "wins": 1,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": 4,
-          "goalsAgainst": 0,
-          "goalsFor": 12,
           "shutouts": 1,
           "yellow": 0,
           "red": 0
@@ -1835,23 +1835,6 @@
           "red": 0
         },
         {
-          "slot": "A5",
-          "group": "A",
-          "teamCode": "0213-01CB13-1134",
-          "team": "Copper Mountain 7 BH",
-          "wins": 0,
-          "losses": 1,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 0,
-          "goalDiff": -1,
-          "goalsAgainst": 3,
-          "goalsFor": 2,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A7",
           "group": "A",
           "teamCode": "0106-01CB13-2092",
@@ -1864,6 +1847,23 @@
           "goalDiff": -3,
           "goalsAgainst": 6,
           "goalsFor": 3,
+          "shutouts": 0,
+          "yellow": 0,
+          "red": 0
+        },
+        {
+          "slot": "A5",
+          "group": "A",
+          "teamCode": "0213-01CB13-1134",
+          "team": "Copper Mountain 7 BH",
+          "wins": 0,
+          "losses": 2,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 0,
+          "goalDiff": -5,
+          "goalsAgainst": 11,
+          "goalsFor": 2,
           "shutouts": 0,
           "yellow": 0,
           "red": 0
@@ -2049,8 +2049,8 @@
           "matchup": "A5 vs A3",
           "home": "Copper Mountain 7 BH",
           "away": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-AC1",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 0,
+          "awayScore": 8
         },
         {
           "number": "655982",
