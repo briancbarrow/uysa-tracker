@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T18:19:36.65018439-06:00",
+  "generatedAt": "2026-09-13T02:30:40.089968107-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -76,6 +76,23 @@
           "red": 0
         },
         {
+          "slot": "A8",
+          "group": "A",
+          "teamCode": "0436-03SB13-0274",
+          "team": "La Roca U12B- J Walker Pre ECNL",
+          "wins": 1,
+          "losses": 1,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 4,
+          "goalDiff": -1,
+          "goalsAgainst": 6,
+          "goalsFor": 5,
+          "shutouts": 1,
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "slot": "A2",
           "group": "A",
           "teamCode": "0436-03SB13-0263",
@@ -110,23 +127,6 @@
           "red": 0
         },
         {
-          "slot": "A8",
-          "group": "A",
-          "teamCode": "0436-03SB13-0274",
-          "team": "La Roca U12B- J Walker Pre ECNL",
-          "wins": 0,
-          "losses": 1,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 1,
-          "goalDiff": -2,
-          "goalsAgainst": 6,
-          "goalsFor": 4,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A5",
           "group": "A",
           "teamCode": "0446-02C3B13-9254",
@@ -149,12 +149,12 @@
           "teamCode": "0402-01CB13-1439",
           "team": "Wasatch SC 14/13B - AM",
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "ties": 1,
           "pointsDed": 0,
           "totalPoints": 1,
-          "goalDiff": -5,
-          "goalsAgainst": 7,
+          "goalDiff": -6,
+          "goalsAgainst": 8,
           "goalsFor": 2,
           "shutouts": 0,
           "yellow": 0,
@@ -354,8 +354,8 @@
           "matchup": "A8 vs A9",
           "home": "La Roca U12B- J Walker Pre ECNL",
           "away": "Wasatch SC 14/13B - AM",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 0
         },
         {
           "number": "672260",
@@ -2440,14 +2440,14 @@
           "group": "A",
           "teamCode": "0203-01CB13-0008",
           "team": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-SC2",
-          "wins": 3,
+          "wins": 4,
           "losses": 0,
           "ties": 0,
           "pointsDed": 0,
-          "totalPoints": 9,
-          "goalDiff": 9,
-          "goalsAgainst": 3,
-          "goalsFor": 15,
+          "totalPoints": 12,
+          "goalDiff": 13,
+          "goalsAgainst": 4,
+          "goalsFor": 24,
           "shutouts": 1,
           "yellow": 2,
           "red": 0
@@ -2526,13 +2526,13 @@
           "teamCode": "0446-02C3B13-9259",
           "team": "Avalanche U13B Blue SL",
           "wins": 1,
-          "losses": 2,
+          "losses": 3,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 3,
-          "goalDiff": -5,
-          "goalsAgainst": 15,
-          "goalsFor": 7,
+          "goalDiff": -9,
+          "goalsAgainst": 24,
+          "goalsFor": 8,
           "shutouts": 0,
           "yellow": 0,
           "red": 0
@@ -2585,7 +2585,7 @@
           "goalsAgainst": 13,
           "goalsFor": 0,
           "shutouts": 0,
-          "yellow": 3,
+          "yellow": 4,
           "red": 1
         },
         {
@@ -2844,8 +2844,8 @@
           "matchup": "A1 vs A5",
           "home": "Avalanche U13B Blue SL",
           "away": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-SC2",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 9
         },
         {
           "number": "656074",
