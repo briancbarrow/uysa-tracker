@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T02:30:40.089968107-06:00",
+  "generatedAt": "2026-09-14T03:12:56.920934796-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -766,15 +766,15 @@
           "group": "A",
           "teamCode": "0430-15CB13-2399",
           "team": "Summit FC 13/14B - JW",
-          "wins": 1,
+          "wins": 2,
           "losses": 0,
           "ties": 1,
           "pointsDed": 0,
-          "totalPoints": 4,
-          "goalDiff": 2,
+          "totalPoints": 7,
+          "goalDiff": 6,
           "goalsAgainst": 0,
-          "goalsFor": 2,
-          "shutouts": 1,
+          "goalsFor": 14,
+          "shutouts": 2,
           "yellow": 0,
           "red": 0
         },
@@ -796,23 +796,6 @@
           "red": 0
         },
         {
-          "slot": "A10",
-          "group": "A",
-          "teamCode": "0298-01CB13-7869",
-          "team": "Elko Elite BU13 IND",
-          "wins": 1,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": 3,
-          "goalsAgainst": 1,
-          "goalsFor": 4,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A8",
           "group": "A",
           "teamCode": "0529-06CB13-8631",
@@ -827,6 +810,23 @@
           "goalsFor": 7,
           "shutouts": 0,
           "yellow": 1,
+          "red": 0
+        },
+        {
+          "slot": "A10",
+          "group": "A",
+          "teamCode": "0298-01CB13-7869",
+          "team": "Elko Elite BU13 IND",
+          "wins": 1,
+          "losses": 1,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 3,
+          "goalDiff": -1,
+          "goalsAgainst": 13,
+          "goalsFor": 4,
+          "shutouts": 0,
+          "yellow": 0,
           "red": 0
         },
         {
@@ -1151,8 +1151,8 @@
           "matchup": "A10 vs A2",
           "home": "Elko Elite BU13 IND",
           "away": "Summit FC 13/14B - JW",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 0,
+          "awayScore": 12
         },
         {
           "number": "674231",
