@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T03:12:56.920934796-06:00",
+  "generatedAt": "2026-09-15T02:55:15.115757968-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -1801,23 +1801,6 @@
           "red": 0
         },
         {
-          "slot": "A4",
-          "group": "A",
-          "teamCode": "02JW-01CB13-0050",
-          "team": "DEP Cachimbas FC 13/14B (ind)",
-          "wins": 1,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": 1,
-          "goalsAgainst": 1,
-          "goalsFor": 2,
-          "shutouts": 0,
-          "yellow": 2,
-          "red": 0
-        },
-        {
           "slot": "A1",
           "group": "A",
           "teamCode": "0446-06CB13-9305",
@@ -1835,18 +1818,35 @@
           "red": 0
         },
         {
+          "slot": "A4",
+          "group": "A",
+          "teamCode": "02JW-01CB13-0050",
+          "team": "DEP Cachimbas FC 13/14B (ind)",
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 3,
+          "goalDiff": 1,
+          "goalsAgainst": 1,
+          "goalsFor": 2,
+          "shutouts": 0,
+          "yellow": 2,
+          "red": 0
+        },
+        {
           "slot": "A7",
           "group": "A",
           "teamCode": "0106-01CB13-2092",
           "team": "Murray S.C. U13 Boys Orange RL",
-          "wins": 0,
+          "wins": 1,
           "losses": 2,
           "ties": 0,
           "pointsDed": 0,
-          "totalPoints": 0,
-          "goalDiff": -3,
-          "goalsAgainst": 6,
-          "goalsFor": 3,
+          "totalPoints": 3,
+          "goalDiff": 1,
+          "goalsAgainst": 8,
+          "goalsFor": 9,
           "shutouts": 0,
           "yellow": 0,
           "red": 0
@@ -1874,13 +1874,13 @@
           "teamCode": "0200-01CB13-0246",
           "team": "Utah Glory BU13 Black NV",
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 0,
-          "goalDiff": -8,
-          "goalsAgainst": 18,
-          "goalsFor": 0,
+          "goalDiff": -12,
+          "goalsAgainst": 24,
+          "goalsFor": 2,
           "shutouts": 0,
           "yellow": 0,
           "red": 0
@@ -1974,8 +1974,8 @@
           "matchup": "A7 vs A8",
           "home": "Murray S.C. U13 Boys Orange RL",
           "away": "Utah Glory BU13 Black NV",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 6,
+          "awayScore": 2
         },
         {
           "number": "655979",
