@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T02:55:15.115757968-06:00",
+  "generatedAt": "2026-09-16T02:48:30.166424707-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -8,18 +8,35 @@
       "url": "https://uysa.sportsaffinity.com/tour/public/info/schedule_results2.asp?sessionguid=\u0026flightguid=66DD5A39-2C01-4E6B-B14A-77B55AC36027\u0026tournamentguid=69C35A62-D325-418C-95D3-C61FA95030D3",
       "standings": [
         {
+          "slot": "A8",
+          "group": "A",
+          "teamCode": "0436-03SB13-0274",
+          "team": "La Roca U12B- J Walker Pre ECNL",
+          "wins": 2,
+          "losses": 1,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 7,
+          "goalDiff": 0,
+          "goalsAgainst": 7,
+          "goalsFor": 7,
+          "shutouts": 1,
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "slot": "A3",
           "group": "A",
           "teamCode": "0213-01CB13-1151",
           "team": "Copper Mountain 7 JM",
           "wins": 2,
-          "losses": 0,
+          "losses": 1,
           "ties": 1,
           "pointsDed": 0,
           "totalPoints": 7,
-          "goalDiff": 6,
-          "goalsAgainst": 4,
-          "goalsFor": 11,
+          "goalDiff": 5,
+          "goalsAgainst": 6,
+          "goalsFor": 12,
           "shutouts": 1,
           "yellow": 0,
           "red": 0
@@ -73,23 +90,6 @@
           "goalsFor": 13,
           "shutouts": 2,
           "yellow": 2,
-          "red": 0
-        },
-        {
-          "slot": "A8",
-          "group": "A",
-          "teamCode": "0436-03SB13-0274",
-          "team": "La Roca U12B- J Walker Pre ECNL",
-          "wins": 1,
-          "losses": 1,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 4,
-          "goalDiff": -1,
-          "goalsAgainst": 6,
-          "goalsFor": 5,
-          "shutouts": 1,
-          "yellow": 1,
           "red": 0
         },
         {
@@ -369,8 +369,8 @@
           "matchup": "A3 vs A8",
           "home": "Copper Mountain 7 JM",
           "away": "La Roca U12B- J Walker Pre ECNL",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 2
         },
         {
           "number": "672237",
@@ -2470,6 +2470,23 @@
           "red": 0
         },
         {
+          "slot": "A8",
+          "group": "A",
+          "teamCode": "0213-01CB13-10040",
+          "team": "Copper Mountain 7 CT",
+          "wins": 3,
+          "losses": 1,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 9,
+          "goalDiff": 2,
+          "goalsAgainst": 10,
+          "goalsFor": 15,
+          "shutouts": 1,
+          "yellow": 0,
+          "red": 0
+        },
+        {
           "slot": "A6",
           "group": "A",
           "teamCode": "0213-01CB13-1152",
@@ -2504,20 +2521,20 @@
           "red": 0
         },
         {
-          "slot": "A8",
+          "slot": "A9",
           "group": "A",
-          "teamCode": "0213-01CB13-10040",
-          "team": "Copper Mountain 7 CT",
-          "wins": 2,
+          "teamCode": "0207-01CB13-1340",
+          "team": "7 Elite Academy BU13 Copa",
+          "wins": 1,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pointsDed": 0,
-          "totalPoints": 6,
-          "goalDiff": 1,
-          "goalsAgainst": 9,
-          "goalsFor": 13,
+          "totalPoints": 4,
+          "goalDiff": 0,
+          "goalsAgainst": 7,
+          "goalsFor": 12,
           "shutouts": 1,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0
         },
         {
@@ -2538,55 +2555,21 @@
           "red": 0
         },
         {
-          "slot": "A9",
-          "group": "A",
-          "teamCode": "0207-01CB13-1340",
-          "team": "7 Elite Academy BU13 Copa",
-          "wins": 0,
-          "losses": 1,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 1,
-          "goalDiff": -4,
-          "goalsAgainst": 7,
-          "goalsFor": 3,
-          "shutouts": 0,
-          "yellow": 1,
-          "red": 0
-        },
-        {
           "slot": "A10",
           "group": "A",
           "teamCode": "0204-01CB13-9938",
           "team": "Razzia FC Hawks",
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 0,
-          "goalDiff": -8,
-          "goalsAgainst": 12,
-          "goalsFor": 1,
+          "goalDiff": -9,
+          "goalsAgainst": 14,
+          "goalsFor": 2,
           "shutouts": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0
-        },
-        {
-          "slot": "A7",
-          "group": "A",
-          "teamCode": "02JW-30CB13-0014",
-          "team": "Madrid FC 13/14B (ind)",
-          "wins": 0,
-          "losses": 2,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 0,
-          "goalDiff": -8,
-          "goalsAgainst": 13,
-          "goalsFor": 0,
-          "shutouts": 0,
-          "yellow": 4,
-          "red": 1
         },
         {
           "slot": "A3",
@@ -2604,6 +2587,23 @@
           "shutouts": 0,
           "yellow": 0,
           "red": 0
+        },
+        {
+          "slot": "A7",
+          "group": "A",
+          "teamCode": "02JW-30CB13-0014",
+          "team": "Madrid FC 13/14B (ind)",
+          "wins": 0,
+          "losses": 3,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 0,
+          "goalDiff": -12,
+          "goalsAgainst": 22,
+          "goalsFor": 0,
+          "shutouts": 0,
+          "yellow": 4,
+          "red": 1
         }
       ],
       "games": [
@@ -2859,8 +2859,8 @@
           "matchup": "A10 vs A8",
           "home": "Razzia FC Hawks",
           "away": "Copper Mountain 7 CT",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 2
         },
         {
           "number": "656066",
@@ -2874,8 +2874,8 @@
           "matchup": "A9 vs A7",
           "home": "7 Elite Academy BU13 Copa",
           "away": "Madrid FC 13/14B (ind)",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 9,
+          "awayScore": 0
         },
         {
           "number": "656047",
