@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T02:27:30.706245969-06:00",
+  "generatedAt": "2026-09-19T02:15:35.032495369-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -728,6 +728,23 @@
           "red": 0
         },
         {
+          "slot": "A2",
+          "group": "A",
+          "teamCode": "0430-15CB13-2399",
+          "team": "Summit FC 13/14B - JW",
+          "wins": 3,
+          "losses": 0,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 10,
+          "goalDiff": 10,
+          "goalsAgainst": 0,
+          "goalsFor": 20,
+          "shutouts": 3,
+          "yellow": 0,
+          "red": 0
+        },
+        {
           "slot": "A5",
           "group": "A",
           "teamCode": "0430-05CB13-9964",
@@ -762,54 +779,20 @@
           "red": 0
         },
         {
-          "slot": "A2",
-          "group": "A",
-          "teamCode": "0430-15CB13-2399",
-          "team": "Summit FC 13/14B - JW",
-          "wins": 2,
-          "losses": 0,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 7,
-          "goalDiff": 6,
-          "goalsAgainst": 0,
-          "goalsFor": 14,
-          "shutouts": 2,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A1",
           "group": "A",
           "teamCode": "0558-02CB13-0404",
           "team": "Celtic BU13 - Fuentes",
-          "wins": 1,
+          "wins": 2,
           "losses": 0,
           "ties": 0,
           "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": 3,
+          "totalPoints": 6,
+          "goalDiff": 7,
           "goalsAgainst": 0,
-          "goalsFor": 3,
-          "shutouts": 1,
-          "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A8",
-          "group": "A",
-          "teamCode": "0529-06CB13-8631",
-          "team": "Liverpool FC IA - Premier 13-14",
-          "wins": 0,
-          "losses": 1,
-          "ties": 3,
-          "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": -1,
-          "goalsAgainst": 8,
           "goalsFor": 7,
-          "shutouts": 0,
-          "yellow": 1,
+          "shutouts": 2,
+          "yellow": 0,
           "red": 0
         },
         {
@@ -830,6 +813,23 @@
           "red": 0
         },
         {
+          "slot": "A8",
+          "group": "A",
+          "teamCode": "0529-06CB13-8631",
+          "team": "Liverpool FC IA - Premier 13-14",
+          "wins": 0,
+          "losses": 2,
+          "ties": 3,
+          "pointsDed": 0,
+          "totalPoints": 3,
+          "goalDiff": -5,
+          "goalsAgainst": 14,
+          "goalsFor": 7,
+          "shutouts": 0,
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "slot": "A7",
           "group": "A",
           "teamCode": "0446-05CB13-9114",
@@ -842,23 +842,6 @@
           "goalDiff": -5,
           "goalsAgainst": 8,
           "goalsFor": 2,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A6",
-          "group": "A",
-          "teamCode": "0118-01CB13-1422",
-          "team": "Blue Knights U13 B13/14 (JE)",
-          "wins": 0,
-          "losses": 2,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 1,
-          "goalDiff": -7,
-          "goalsAgainst": 9,
-          "goalsFor": 1,
           "shutouts": 0,
           "yellow": 0,
           "red": 0
@@ -878,6 +861,23 @@
           "goalsFor": 8,
           "shutouts": 0,
           "yellow": 1,
+          "red": 0
+        },
+        {
+          "slot": "A6",
+          "group": "A",
+          "teamCode": "0118-01CB13-1422",
+          "team": "Blue Knights U13 B13/14 (JE)",
+          "wins": 0,
+          "losses": 3,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 1,
+          "goalDiff": -11,
+          "goalsAgainst": 13,
+          "goalsFor": 1,
+          "shutouts": 0,
+          "yellow": 0,
           "red": 0
         },
         {
@@ -1176,7 +1176,7 @@
           "kickoff": "2026-09-18T17:30:00-06:00",
           "rawDate": "Friday, September 18, 2026",
           "rawTime": "05:30 PM",
-          "venue": "Ellison Park",
+          "venue": "Ellison ParkClosed!",
           "field": "4",
           "matchup": "A4 vs A9",
           "home": "Strikers TE",
@@ -1196,8 +1196,8 @@
           "matchup": "A6 vs A1",
           "home": "Blue Knights U13 B13/14 (JE)",
           "away": "Celtic BU13 - Fuentes",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 0,
+          "awayScore": 4
         },
         {
           "number": "674221",
@@ -1211,8 +1211,8 @@
           "matchup": "A2 vs A8",
           "home": "Summit FC 13/14B - JW",
           "away": "Liverpool FC IA - Premier 13-14",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 6,
+          "awayScore": 0
         },
         {
           "number": "674204",
@@ -1801,6 +1801,23 @@
           "red": 0
         },
         {
+          "slot": "A4",
+          "group": "A",
+          "teamCode": "02JW-01CB13-0050",
+          "team": "DEP Cachimbas FC 13/14B (ind)",
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 6,
+          "goalDiff": 3,
+          "goalsAgainst": 2,
+          "goalsFor": 5,
+          "shutouts": 0,
+          "yellow": 2,
+          "red": 0
+        },
+        {
           "slot": "A1",
           "group": "A",
           "teamCode": "0446-06CB13-9305",
@@ -1818,35 +1835,18 @@
           "red": 0
         },
         {
-          "slot": "A4",
-          "group": "A",
-          "teamCode": "02JW-01CB13-0050",
-          "team": "DEP Cachimbas FC 13/14B (ind)",
-          "wins": 1,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": 1,
-          "goalsAgainst": 1,
-          "goalsFor": 2,
-          "shutouts": 0,
-          "yellow": 2,
-          "red": 0
-        },
-        {
           "slot": "A7",
           "group": "A",
           "teamCode": "0106-01CB13-2092",
           "team": "Murray S.C. U13 Boys Orange RL",
           "wins": 1,
-          "losses": 3,
+          "losses": 4,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 3,
-          "goalDiff": -1,
-          "goalsAgainst": 10,
-          "goalsFor": 9,
+          "goalDiff": -3,
+          "goalsAgainst": 13,
+          "goalsFor": 10,
           "shutouts": 0,
           "yellow": 1,
           "red": 0
@@ -2094,8 +2094,8 @@
           "matchup": "A4 vs A7",
           "home": "DEP Cachimbas FC 13/14B (ind)",
           "away": "Murray S.C. U13 Boys Orange RL",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 3,
+          "awayScore": 1
         },
         {
           "number": "655977",
@@ -2476,9 +2476,9 @@
           "team": "Copper Mountain 7 AW",
           "wins": 3,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pointsDed": 0,
-          "totalPoints": 9,
+          "totalPoints": 10,
           "goalDiff": 11,
           "goalsAgainst": 6,
           "goalsFor": 18,
@@ -2510,9 +2510,9 @@
           "team": "Impact PT BU13",
           "wins": 2,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pointsDed": 0,
-          "totalPoints": 6,
+          "totalPoints": 7,
           "goalDiff": 4,
           "goalsAgainst": 5,
           "goalsFor": 11,
@@ -2904,8 +2904,8 @@
           "matchup": "A2 vs A4",
           "home": "Impact PT BU13",
           "away": "Copper Mountain 7 AW",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 0,
+          "awayScore": 0
         },
         {
           "number": "656063",
