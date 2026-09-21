@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T02:47:33.614736157-06:00",
+  "generatedAt": "2026-09-21T03:15:06.663599431-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -728,6 +728,23 @@
           "red": 0
         },
         {
+          "slot": "A5",
+          "group": "A",
+          "teamCode": "0430-05CB13-9964",
+          "team": "Metasport FC 13/14B U13 KR (SFC)",
+          "wins": 4,
+          "losses": 1,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 12,
+          "goalDiff": 9,
+          "goalsAgainst": 6,
+          "goalsFor": 16,
+          "shutouts": 2,
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "slot": "A11",
           "group": "A",
           "teamCode": "0558-02CB13-8655",
@@ -745,20 +762,20 @@
           "red": 0
         },
         {
-          "slot": "A5",
+          "slot": "A1",
           "group": "A",
-          "teamCode": "0430-05CB13-9964",
-          "team": "Metasport FC 13/14B U13 KR (SFC)",
+          "teamCode": "0558-02CB13-0404",
+          "team": "Celtic BU13 - Fuentes",
           "wins": 3,
-          "losses": 1,
+          "losses": 0,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 9,
-          "goalDiff": 5,
-          "goalsAgainst": 4,
-          "goalsFor": 10,
+          "goalDiff": 8,
+          "goalsAgainst": 1,
+          "goalsFor": 9,
           "shutouts": 2,
-          "yellow": 1,
+          "yellow": 0,
           "red": 0
         },
         {
@@ -779,23 +796,6 @@
           "red": 0
         },
         {
-          "slot": "A1",
-          "group": "A",
-          "teamCode": "0558-02CB13-0404",
-          "team": "Celtic BU13 - Fuentes",
-          "wins": 2,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 6,
-          "goalDiff": 7,
-          "goalsAgainst": 0,
-          "goalsFor": 7,
-          "shutouts": 2,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A7",
           "group": "A",
           "teamCode": "0446-05CB13-9114",
@@ -807,23 +807,6 @@
           "totalPoints": 5,
           "goalDiff": -3,
           "goalsAgainst": 9,
-          "goalsFor": 5,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A10",
-          "group": "A",
-          "teamCode": "0298-01CB13-7869",
-          "team": "Elko Elite BU13 IND",
-          "wins": 1,
-          "losses": 2,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": -3,
-          "goalsAgainst": 16,
           "goalsFor": 5,
           "shutouts": 0,
           "yellow": 0,
@@ -847,18 +830,35 @@
           "red": 0
         },
         {
+          "slot": "A10",
+          "group": "A",
+          "teamCode": "0298-01CB13-7869",
+          "team": "Elko Elite BU13 IND",
+          "wins": 1,
+          "losses": 3,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 3,
+          "goalDiff": -7,
+          "goalsAgainst": 22,
+          "goalsFor": 7,
+          "shutouts": 0,
+          "yellow": 0,
+          "red": 0
+        },
+        {
           "slot": "A4",
           "group": "A",
           "teamCode": "0437-01CB13-0352",
           "team": "Strikers TE",
           "wins": 0,
-          "losses": 3,
+          "losses": 4,
           "ties": 1,
           "pointsDed": 0,
           "totalPoints": 1,
-          "goalDiff": -7,
-          "goalsAgainst": 15,
-          "goalsFor": 8,
+          "goalDiff": -8,
+          "goalsAgainst": 17,
+          "goalsFor": 9,
           "shutouts": 0,
           "yellow": 1,
           "red": 0
@@ -1226,8 +1226,8 @@
           "matchup": "A10 vs A5",
           "home": "Elko Elite BU13 IND",
           "away": "Metasport FC 13/14B U13 KR (SFC)",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 2,
+          "awayScore": 6
         },
         {
           "number": "674210",
@@ -1271,8 +1271,8 @@
           "matchup": "A1 vs A4",
           "home": "Celtic BU13 - Fuentes",
           "away": "Strikers TE",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 2,
+          "awayScore": 1
         },
         {
           "number": "674234",
@@ -2521,6 +2521,23 @@
           "red": 0
         },
         {
+          "slot": "A1",
+          "group": "A",
+          "teamCode": "0446-02C3B13-9259",
+          "team": "Avalanche U13B Blue SL",
+          "wins": 2,
+          "losses": 3,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 6,
+          "goalDiff": -5,
+          "goalsAgainst": 24,
+          "goalsFor": 17,
+          "shutouts": 1,
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "slot": "A9",
           "group": "A",
           "teamCode": "0207-01CB13-1340",
@@ -2535,23 +2552,6 @@
           "goalsFor": 12,
           "shutouts": 1,
           "yellow": 1,
-          "red": 0
-        },
-        {
-          "slot": "A1",
-          "group": "A",
-          "teamCode": "0446-02C3B13-9259",
-          "team": "Avalanche U13B Blue SL",
-          "wins": 1,
-          "losses": 3,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": -9,
-          "goalsAgainst": 24,
-          "goalsFor": 8,
-          "shutouts": 0,
-          "yellow": 0,
           "red": 0
         },
         {
@@ -2572,23 +2572,6 @@
           "red": 1
         },
         {
-          "slot": "A7",
-          "group": "A",
-          "teamCode": "02JW-30CB13-0014",
-          "team": "Madrid FC 13/14B (ind)",
-          "wins": 0,
-          "losses": 3,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 0,
-          "goalDiff": -12,
-          "goalsAgainst": 22,
-          "goalsFor": 0,
-          "shutouts": 0,
-          "yellow": 4,
-          "red": 1
-        },
-        {
           "slot": "A3",
           "group": "A",
           "teamCode": "0131-01CB13-5710",
@@ -2604,6 +2587,23 @@
           "shutouts": 0,
           "yellow": 0,
           "red": 0
+        },
+        {
+          "slot": "A7",
+          "group": "A",
+          "teamCode": "02JW-30CB13-0014",
+          "team": "Madrid FC 13/14B (ind)",
+          "wins": 0,
+          "losses": 4,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 0,
+          "goalDiff": -16,
+          "goalsAgainst": 31,
+          "goalsFor": 0,
+          "shutouts": 0,
+          "yellow": 5,
+          "red": 1
         }
       ],
       "games": [
@@ -2919,8 +2919,8 @@
           "matchup": "A7 vs A1",
           "home": "Madrid FC 13/14B (ind)",
           "away": "Avalanche U13B Blue SL",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 0,
+          "awayScore": 9
         },
         {
           "number": "656050",
