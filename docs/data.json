@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T03:15:06.663599431-06:00",
+  "generatedAt": "2026-09-22T02:46:14.572472629-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -1410,21 +1410,6 @@
           "awayScore": null
         },
         {
-          "number": "674237",
-          "flightSlug": "division3",
-          "flightName": "Boys 13U Division 3",
-          "kickoff": "2026-09-26T12:30:00-06:00",
-          "rawDate": "Saturday, September 26, 2026",
-          "rawTime": "12:30 PM",
-          "venue": "Spanish Fork Sports Park",
-          "field": "SPF5",
-          "matchup": "A11 vs A5",
-          "home": "Celtic BU13 - Enriquez",
-          "away": "Metasport FC 13/14B U13 KR (SFC)",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
           "number": "674254",
           "flightSlug": "division3",
           "flightName": "Boys 13U Division 3",
@@ -1661,6 +1646,21 @@
           "matchup": "A11 vs A6",
           "home": "Celtic BU13 - Enriquez",
           "away": "Blue Knights U13 B13/14 (JE)",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "number": "674237",
+          "flightSlug": "division3",
+          "flightName": "Boys 13U Division 3",
+          "kickoff": "2026-10-23T17:30:00-06:00",
+          "rawDate": "Friday, October 23, 2026",
+          "rawTime": "05:30 PM",
+          "venue": "IHC Fields",
+          "field": "5168",
+          "matchup": "A11 vs A5",
+          "home": "Celtic BU13 - Enriquez",
+          "away": "Metasport FC 13/14B U13 KR (SFC)",
           "homeScore": null,
           "awayScore": null
         },
@@ -2509,15 +2509,32 @@
           "teamCode": "0213-01CB13-10040",
           "team": "Copper Mountain 7 CT",
           "wins": 3,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 9,
-          "goalDiff": 2,
-          "goalsAgainst": 10,
-          "goalsFor": 15,
+          "goalDiff": 1,
+          "goalsAgainst": 16,
+          "goalsFor": 20,
           "shutouts": 1,
           "yellow": 0,
+          "red": 0
+        },
+        {
+          "slot": "A9",
+          "group": "A",
+          "teamCode": "0207-01CB13-1340",
+          "team": "7 Elite Academy BU13 Copa",
+          "wins": 2,
+          "losses": 1,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 7,
+          "goalDiff": 1,
+          "goalsAgainst": 12,
+          "goalsFor": 18,
+          "shutouts": 1,
+          "yellow": 2,
           "red": 0
         },
         {
@@ -2533,23 +2550,6 @@
           "goalDiff": -5,
           "goalsAgainst": 24,
           "goalsFor": 17,
-          "shutouts": 1,
-          "yellow": 1,
-          "red": 0
-        },
-        {
-          "slot": "A9",
-          "group": "A",
-          "teamCode": "0207-01CB13-1340",
-          "team": "7 Elite Academy BU13 Copa",
-          "wins": 1,
-          "losses": 1,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 4,
-          "goalDiff": 0,
-          "goalsAgainst": 7,
-          "goalsFor": 12,
           "shutouts": 1,
           "yellow": 1,
           "red": 0
@@ -2949,8 +2949,8 @@
           "matchup": "A8 vs A9",
           "home": "Copper Mountain 7 CT",
           "away": "7 Elite Academy BU13 Copa",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 5,
+          "awayScore": 6
         },
         {
           "number": "656057",
