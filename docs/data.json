@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T02:46:14.572472629-06:00",
+  "generatedAt": "2026-09-22T08:10:45.72323235-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -1784,6 +1784,23 @@
           "red": 0
         },
         {
+          "slot": "A5",
+          "group": "A",
+          "teamCode": "0213-01CB13-1134",
+          "team": "Copper Mountain 7 BH",
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 6,
+          "goalDiff": 2,
+          "goalsAgainst": 12,
+          "goalsFor": 17,
+          "shutouts": 1,
+          "yellow": 0,
+          "red": 0
+        },
+        {
           "slot": "A6",
           "group": "A",
           "teamCode": "0140-011B13-0047",
@@ -1835,23 +1852,6 @@
           "red": 0
         },
         {
-          "slot": "A5",
-          "group": "A",
-          "teamCode": "0213-01CB13-1134",
-          "team": "Copper Mountain 7 BH",
-          "wins": 1,
-          "losses": 2,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": -2,
-          "goalsAgainst": 12,
-          "goalsFor": 6,
-          "shutouts": 0,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A7",
           "group": "A",
           "teamCode": "0106-01CB13-2092",
@@ -1874,12 +1874,12 @@
           "teamCode": "0200-01CB13-0246",
           "team": "Utah Glory BU13 Black NV",
           "wins": 0,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 0,
-          "goalDiff": -20,
-          "goalsAgainst": 44,
+          "goalDiff": -24,
+          "goalsAgainst": 55,
           "goalsFor": 3,
           "shutouts": 0,
           "yellow": 0,
@@ -2169,8 +2169,8 @@
           "matchup": "A5 vs A8",
           "home": "Copper Mountain 7 BH",
           "away": "Utah Glory BU13 Black NV",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 11,
+          "awayScore": 0
         },
         {
           "number": "655987",
