@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T02:42:21.054138036-06:00",
+  "generatedAt": "2026-09-25T03:02:59.562086775-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -30,12 +30,12 @@
           "teamCode": "0213-01CB13-1151",
           "team": "Copper Mountain 7 JM",
           "wins": 3,
-          "losses": 1,
+          "losses": 2,
           "ties": 1,
           "pointsDed": 0,
           "totalPoints": 10,
-          "goalDiff": 7,
-          "goalsAgainst": 6,
+          "goalDiff": 3,
+          "goalsAgainst": 10,
           "goalsFor": 14,
           "shutouts": 2,
           "yellow": 0,
@@ -76,6 +76,23 @@
           "red": 0
         },
         {
+          "slot": "A2",
+          "group": "A",
+          "teamCode": "0436-03SB13-0263",
+          "team": "La Roca U13B- C Santos ECNL RL",
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 6,
+          "goalDiff": 2,
+          "goalsAgainst": 10,
+          "goalsFor": 14,
+          "shutouts": 1,
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "slot": "A7",
           "group": "A",
           "teamCode": "0471-01CB13-0057",
@@ -90,23 +107,6 @@
           "goalsFor": 6,
           "shutouts": 0,
           "yellow": 2,
-          "red": 0
-        },
-        {
-          "slot": "A2",
-          "group": "A",
-          "teamCode": "0436-03SB13-0263",
-          "team": "La Roca U13B- C Santos ECNL RL",
-          "wins": 1,
-          "losses": 2,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": -2,
-          "goalsAgainst": 10,
-          "goalsFor": 10,
-          "shutouts": 0,
-          "yellow": 1,
           "red": 0
         },
         {
@@ -459,8 +459,8 @@
           "matchup": "A2 vs A3",
           "home": "La Roca U13B- C Santos ECNL RL",
           "away": "Copper Mountain 7 JM",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 4,
+          "awayScore": 0
         },
         {
           "number": "672242",
@@ -1754,16 +1754,16 @@
           "group": "A",
           "teamCode": "0203-01CB13-6758",
           "team": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-AC1",
-          "wins": 3,
+          "wins": 4,
           "losses": 0,
           "ties": 0,
           "pointsDed": 0,
-          "totalPoints": 9,
-          "goalDiff": 12,
+          "totalPoints": 12,
+          "goalDiff": 16,
           "goalsAgainst": 0,
-          "goalsFor": 27,
-          "shutouts": 3,
-          "yellow": 0,
+          "goalsFor": 34,
+          "shutouts": 4,
+          "yellow": 1,
           "red": 0
         },
         {
@@ -1801,23 +1801,6 @@
           "red": 0
         },
         {
-          "slot": "A1",
-          "group": "A",
-          "teamCode": "0446-06CB13-9305",
-          "team": "Avalanche U13B Pink WSL",
-          "wins": 2,
-          "losses": 1,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 6,
-          "goalDiff": 3,
-          "goalsAgainst": 4,
-          "goalsFor": 11,
-          "shutouts": 1,
-          "yellow": 1,
-          "red": 0
-        },
-        {
           "slot": "A5",
           "group": "A",
           "teamCode": "0213-01CB13-1134",
@@ -1832,6 +1815,23 @@
           "goalsFor": 17,
           "shutouts": 1,
           "yellow": 0,
+          "red": 0
+        },
+        {
+          "slot": "A1",
+          "group": "A",
+          "teamCode": "0446-06CB13-9305",
+          "team": "Avalanche U13B Pink WSL",
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 6,
+          "goalDiff": -1,
+          "goalsAgainst": 11,
+          "goalsFor": 11,
+          "shutouts": 1,
+          "yellow": 1,
           "red": 0
         },
         {
@@ -2199,8 +2199,8 @@
           "matchup": "A3 vs A1",
           "home": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-AC1",
           "away": "Avalanche U13B Pink WSL",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 7,
+          "awayScore": 0
         },
         {
           "number": "655955",
