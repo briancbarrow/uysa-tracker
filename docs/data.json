@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T03:29:22.399654743-06:00",
+  "generatedAt": "2026-09-28T04:06:49.03410573-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -39,6 +39,23 @@
           "goalsFor": 14,
           "shutouts": 2,
           "yellow": 0,
+          "red": 0
+        },
+        {
+          "slot": "A7",
+          "group": "A",
+          "teamCode": "0471-01CB13-0057",
+          "team": "Peak SC 13/14B MH Black",
+          "wins": 3,
+          "losses": 1,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 9,
+          "goalDiff": 4,
+          "goalsAgainst": 5,
+          "goalsFor": 9,
+          "shutouts": 1,
+          "yellow": 2,
           "red": 0
         },
         {
@@ -93,23 +110,6 @@
           "red": 0
         },
         {
-          "slot": "A7",
-          "group": "A",
-          "teamCode": "0471-01CB13-0057",
-          "team": "Peak SC 13/14B MH Black",
-          "wins": 2,
-          "losses": 1,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 6,
-          "goalDiff": 1,
-          "goalsAgainst": 5,
-          "goalsFor": 6,
-          "shutouts": 0,
-          "yellow": 2,
-          "red": 0
-        },
-        {
           "slot": "A4",
           "group": "A",
           "teamCode": "0106-01CB13-2091",
@@ -149,15 +149,15 @@
           "teamCode": "0446-02C3B13-9254",
           "team": "Avalanche U13B Black SL",
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "ties": 2,
           "pointsDed": 0,
           "totalPoints": 2,
-          "goalDiff": -7,
-          "goalsAgainst": 11,
+          "goalDiff": -10,
+          "goalsAgainst": 14,
           "goalsFor": 3,
           "shutouts": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0
         }
       ],
@@ -504,8 +504,8 @@
           "matchup": "A7 vs A5",
           "home": "Peak SC 13/14B MH Black",
           "away": "Avalanche U13B Black SL",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 3,
+          "awayScore": 0
         },
         {
           "number": "672250",
@@ -2521,37 +2521,37 @@
           "red": 0
         },
         {
+          "slot": "A1",
+          "group": "A",
+          "teamCode": "0446-02C3B13-9259",
+          "team": "Avalanche U13B Blue SL",
+          "wins": 3,
+          "losses": 3,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 9,
+          "goalDiff": -2,
+          "goalsAgainst": 25,
+          "goalsFor": 21,
+          "shutouts": 1,
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "slot": "A9",
           "group": "A",
           "teamCode": "0207-01CB13-1340",
           "team": "7 Elite Academy BU13 Copa",
           "wins": 2,
-          "losses": 1,
+          "losses": 2,
           "ties": 2,
           "pointsDed": 0,
           "totalPoints": 8,
-          "goalDiff": 1,
-          "goalsAgainst": 16,
-          "goalsFor": 22,
+          "goalDiff": -2,
+          "goalsAgainst": 20,
+          "goalsFor": 23,
           "shutouts": 1,
           "yellow": 2,
-          "red": 0
-        },
-        {
-          "slot": "A1",
-          "group": "A",
-          "teamCode": "0446-02C3B13-9259",
-          "team": "Avalanche U13B Blue SL",
-          "wins": 2,
-          "losses": 3,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 6,
-          "goalDiff": -5,
-          "goalsAgainst": 24,
-          "goalsFor": 17,
-          "shutouts": 1,
-          "yellow": 1,
           "red": 0
         },
         {
@@ -3039,8 +3039,8 @@
           "matchup": "A9 vs A1",
           "home": "7 Elite Academy BU13 Copa",
           "away": "Avalanche U13B Blue SL",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 4
         },
         {
           "number": "656054",
