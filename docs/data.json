@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T04:06:49.03410573-06:00",
+  "generatedAt": "2026-09-29T04:05:05.465794273-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -749,14 +749,14 @@
           "group": "A",
           "teamCode": "0430-05CB13-9964",
           "team": "Metasport FC 13/14B U13 KR (SFC)",
-          "wins": 4,
+          "wins": 5,
           "losses": 1,
           "ties": 0,
           "pointsDed": 0,
-          "totalPoints": 12,
-          "goalDiff": 9,
-          "goalsAgainst": 6,
-          "goalsFor": 16,
+          "totalPoints": 15,
+          "goalDiff": 10,
+          "goalsAgainst": 8,
+          "goalsFor": 19,
           "shutouts": 2,
           "yellow": 1,
           "red": 0
@@ -801,15 +801,15 @@
           "teamCode": "0437-01CB13-0356",
           "team": "Strikers JH B14",
           "wins": 3,
-          "losses": 2,
+          "losses": 3,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 9,
-          "goalDiff": 2,
-          "goalsAgainst": 6,
-          "goalsFor": 9,
+          "goalDiff": 1,
+          "goalsAgainst": 9,
+          "goalsFor": 11,
           "shutouts": 1,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0
         },
         {
@@ -1331,8 +1331,8 @@
           "matchup": "A5 vs A9",
           "home": "Metasport FC 13/14B U13 KR (SFC)",
           "away": "Strikers JH B14",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 3,
+          "awayScore": 2
         },
         {
           "number": "674220",
