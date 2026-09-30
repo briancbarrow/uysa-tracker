@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T04:05:05.465794273-06:00",
+  "generatedAt": "2026-09-30T03:57:38.60221092-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -25,6 +25,23 @@
           "red": 0
         },
         {
+          "slot": "A7",
+          "group": "A",
+          "teamCode": "0471-01CB13-0057",
+          "team": "Peak SC 13/14B MH Black",
+          "wins": 4,
+          "losses": 1,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 12,
+          "goalDiff": 6,
+          "goalsAgainst": 6,
+          "goalsFor": 12,
+          "shutouts": 1,
+          "yellow": 2,
+          "red": 0
+        },
+        {
           "slot": "A3",
           "group": "A",
           "teamCode": "0213-01CB13-1151",
@@ -39,23 +56,6 @@
           "goalsFor": 14,
           "shutouts": 2,
           "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A7",
-          "group": "A",
-          "teamCode": "0471-01CB13-0057",
-          "team": "Peak SC 13/14B MH Black",
-          "wins": 3,
-          "losses": 1,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 9,
-          "goalDiff": 4,
-          "goalsAgainst": 5,
-          "goalsFor": 9,
-          "shutouts": 1,
-          "yellow": 2,
           "red": 0
         },
         {
@@ -132,13 +132,13 @@
           "teamCode": "0402-01CB13-1439",
           "team": "Wasatch SC 14/13B - AM",
           "wins": 0,
-          "losses": 3,
+          "losses": 4,
           "ties": 2,
           "pointsDed": 0,
           "totalPoints": 2,
-          "goalDiff": -6,
-          "goalsAgainst": 8,
-          "goalsFor": 2,
+          "goalDiff": -8,
+          "goalsAgainst": 11,
+          "goalsFor": 3,
           "shutouts": 0,
           "yellow": 0,
           "red": 0
@@ -519,8 +519,8 @@
           "matchup": "A9 vs A7",
           "home": "Wasatch SC 14/13B - AM",
           "away": "Peak SC 13/14B MH Black",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 3
         },
         {
           "number": "672229",
@@ -711,23 +711,6 @@
       "url": "https://uysa.sportsaffinity.com/tour/public/info/schedule_results2.asp?sessionguid=\u0026flightguid=86FD18DF-E48F-4C70-B14F-A6535C269A1E\u0026tournamentguid=69C35A62-D325-418C-95D3-C61FA95030D3",
       "standings": [
         {
-          "slot": "A2",
-          "group": "A",
-          "teamCode": "0430-15CB13-2399",
-          "team": "Summit FC 13/14B - JW",
-          "wins": 5,
-          "losses": 1,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 16,
-          "goalDiff": 14,
-          "goalsAgainst": 3,
-          "goalsFor": 27,
-          "shutouts": 3,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A1",
           "group": "A",
           "teamCode": "0558-02CB13-0404",
@@ -759,6 +742,23 @@
           "goalsFor": 19,
           "shutouts": 2,
           "yellow": 1,
+          "red": 0
+        },
+        {
+          "slot": "A2",
+          "group": "A",
+          "teamCode": "0430-15CB13-2399",
+          "team": "Summit FC 13/14B - JW",
+          "wins": 5,
+          "losses": 1,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 13,
+          "goalDiff": 14,
+          "goalsAgainst": 3,
+          "goalsFor": 27,
+          "shutouts": 3,
+          "yellow": 0,
           "red": 0
         },
         {
@@ -842,7 +842,7 @@
           "goalDiff": -2,
           "goalsAgainst": 12,
           "goalsFor": 10,
-          "shutouts": 1,
+          "shutouts": 0,
           "yellow": 0,
           "red": 0
         },
@@ -1270,8 +1270,8 @@
           "field": "5034",
           "matchup": "A3 vs A2",
           "home": "Nebo United U13 - CG",
-          "away": "Summit FC 13/14B - JW",
-          "homeScore": 1,
+          "away": "Summit FC 13/14B - JWForfeited Game",
+          "homeScore": null,
           "awayScore": 0
         },
         {
@@ -1537,7 +1537,7 @@
           "rawDate": "Monday, October 05, 2026",
           "rawTime": "05:30 PM",
           "venue": "Provo - Epic Sports Park",
-          "field": "TBDA",
+          "field": "12",
           "matchup": "A8 vs A11",
           "home": "Liverpool FC IA - Premier 13-14",
           "away": "Celtic BU13 - Enriquez",
