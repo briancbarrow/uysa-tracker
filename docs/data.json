@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T03:57:38.60221092-06:00",
+  "generatedAt": "2026-10-01T04:24:36.710988827-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -2504,6 +2504,23 @@
           "red": 0
         },
         {
+          "slot": "A9",
+          "group": "A",
+          "teamCode": "0207-01CB13-1340",
+          "team": "7 Elite Academy BU13 Copa",
+          "wins": 3,
+          "losses": 2,
+          "ties": 2,
+          "pointsDed": 0,
+          "totalPoints": 11,
+          "goalDiff": 1,
+          "goalsAgainst": 20,
+          "goalsFor": 26,
+          "shutouts": 2,
+          "yellow": 2,
+          "red": 0
+        },
+        {
           "slot": "A8",
           "group": "A",
           "teamCode": "0213-01CB13-10040",
@@ -2538,34 +2555,17 @@
           "red": 0
         },
         {
-          "slot": "A9",
-          "group": "A",
-          "teamCode": "0207-01CB13-1340",
-          "team": "7 Elite Academy BU13 Copa",
-          "wins": 2,
-          "losses": 2,
-          "ties": 2,
-          "pointsDed": 0,
-          "totalPoints": 8,
-          "goalDiff": -2,
-          "goalsAgainst": 20,
-          "goalsFor": 23,
-          "shutouts": 1,
-          "yellow": 2,
-          "red": 0
-        },
-        {
           "slot": "A10",
           "group": "A",
           "teamCode": "0204-01CB13-9938",
           "team": "Razzia FC Hawks",
           "wins": 1,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 3,
-          "goalDiff": -8,
-          "goalsAgainst": 19,
+          "goalDiff": -11,
+          "goalsAgainst": 22,
           "goalsFor": 8,
           "shutouts": 0,
           "yellow": 0,
@@ -3084,8 +3084,8 @@
           "matchup": "A9 vs A10",
           "home": "7 Elite Academy BU13 Copa",
           "away": "Razzia FC Hawks",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 3,
+          "awayScore": 0
         },
         {
           "number": "656060",
