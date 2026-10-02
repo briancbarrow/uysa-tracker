@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T04:24:36.710988827-06:00",
+  "generatedAt": "2026-10-02T04:00:40.502050443-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -12,14 +12,14 @@
           "group": "A",
           "teamCode": "0571-01CB13-0019",
           "team": "Utah Rush B13 LM",
-          "wins": 5,
+          "wins": 6,
           "losses": 0,
           "ties": 0,
           "pointsDed": 0,
-          "totalPoints": 15,
-          "goalDiff": 13,
-          "goalsAgainst": 8,
-          "goalsFor": 21,
+          "totalPoints": 18,
+          "goalDiff": 16,
+          "goalsAgainst": 10,
+          "goalsFor": 26,
           "shutouts": 0,
           "yellow": 3,
           "red": 0
@@ -47,13 +47,13 @@
           "teamCode": "0213-01CB13-1151",
           "team": "Copper Mountain 7 JM",
           "wins": 3,
-          "losses": 2,
+          "losses": 3,
           "ties": 1,
           "pointsDed": 0,
           "totalPoints": 10,
-          "goalDiff": 3,
-          "goalsAgainst": 10,
-          "goalsFor": 14,
+          "goalDiff": 0,
+          "goalsAgainst": 15,
+          "goalsFor": 16,
           "shutouts": 2,
           "yellow": 0,
           "red": 0
@@ -534,8 +534,8 @@
           "matchup": "A3 vs A1",
           "home": "Copper Mountain 7 JM",
           "away": "Utah Rush B13 LM",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 2,
+          "awayScore": 5
         },
         {
           "number": "672245",
