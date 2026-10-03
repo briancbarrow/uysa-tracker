@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T04:00:40.502050443-06:00",
+  "generatedAt": "2026-10-03T03:23:37.797638929-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -545,7 +545,7 @@
           "rawDate": "Saturday, October 03, 2026",
           "rawTime": "12:30 PM",
           "venue": "RAC",
-          "field": "4",
+          "field": "10",
           "matchup": "A7 vs A1",
           "home": "Peak SC 13/14B MH Black",
           "away": "Utah Rush B13 LM",
@@ -715,14 +715,14 @@
           "group": "A",
           "teamCode": "0558-02CB13-0404",
           "team": "Celtic BU13 - Fuentes",
-          "wins": 5,
+          "wins": 6,
           "losses": 0,
           "ties": 0,
           "pointsDed": 0,
-          "totalPoints": 15,
-          "goalDiff": 14,
-          "goalsAgainst": 2,
-          "goalsFor": 17,
+          "totalPoints": 18,
+          "goalDiff": 17,
+          "goalsAgainst": 4,
+          "goalsFor": 22,
           "shutouts": 3,
           "yellow": 0,
           "red": 0
@@ -767,13 +767,13 @@
           "teamCode": "0558-02CB13-8655",
           "team": "Celtic BU13 - Enriquez",
           "wins": 4,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 12,
-          "goalDiff": 7,
-          "goalsAgainst": 5,
-          "goalsFor": 12,
+          "goalDiff": 4,
+          "goalsAgainst": 10,
+          "goalsFor": 14,
           "shutouts": 3,
           "yellow": 1,
           "red": 0
@@ -1421,8 +1421,8 @@
           "matchup": "A11 vs A1",
           "home": "Celtic BU13 - Enriquez",
           "away": "Celtic BU13 - Fuentes",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 2,
+          "awayScore": 5
         },
         {
           "number": "674252",
@@ -1750,6 +1750,23 @@
           "red": 0
         },
         {
+          "slot": "A4",
+          "group": "A",
+          "teamCode": "02JW-01CB13-0050",
+          "team": "DEP Cachimbas FC 13/14B (ind)",
+          "wins": 5,
+          "losses": 0,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 15,
+          "goalDiff": 15,
+          "goalsAgainst": 5,
+          "goalsFor": 25,
+          "shutouts": 1,
+          "yellow": 2,
+          "red": 0
+        },
+        {
           "slot": "A2",
           "group": "A",
           "teamCode": "0213-01CB13-1128",
@@ -1767,35 +1784,18 @@
           "red": 0
         },
         {
-          "slot": "A4",
-          "group": "A",
-          "teamCode": "02JW-01CB13-0050",
-          "team": "DEP Cachimbas FC 13/14B (ind)",
-          "wins": 4,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 12,
-          "goalDiff": 11,
-          "goalsAgainst": 4,
-          "goalsFor": 19,
-          "shutouts": 1,
-          "yellow": 2,
-          "red": 0
-        },
-        {
           "slot": "A5",
           "group": "A",
           "teamCode": "0213-01CB13-1134",
           "team": "Copper Mountain 7 BH",
           "wins": 3,
-          "losses": 2,
+          "losses": 3,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 9,
-          "goalDiff": 5,
-          "goalsAgainst": 12,
-          "goalsFor": 20,
+          "goalDiff": 1,
+          "goalsAgainst": 18,
+          "goalsFor": 21,
           "shutouts": 2,
           "yellow": 0,
           "red": 0
@@ -2274,8 +2274,8 @@
           "matchup": "A4 vs A5",
           "home": "DEP Cachimbas FC 13/14B (ind)",
           "away": "Copper Mountain 7 BH",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 6,
+          "awayScore": 1
         },
         {
           "number": "655981",
