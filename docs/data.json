@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T04:02:33.335091427-06:00",
+  "generatedAt": "2026-10-05T04:47:38.088334131-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -2487,6 +2487,23 @@
           "red": 0
         },
         {
+          "slot": "A4",
+          "group": "A",
+          "teamCode": "0213-01CB13-1150",
+          "team": "Copper Mountain 7 AW",
+          "wins": 5,
+          "losses": 2,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 16,
+          "goalDiff": 15,
+          "goalsAgainst": 12,
+          "goalsFor": 39,
+          "shutouts": 1,
+          "yellow": 3,
+          "red": 0
+        },
+        {
           "slot": "A9",
           "group": "A",
           "teamCode": "0207-01CB13-1340",
@@ -2504,35 +2521,18 @@
           "red": 0
         },
         {
-          "slot": "A4",
-          "group": "A",
-          "teamCode": "0213-01CB13-1150",
-          "team": "Copper Mountain 7 AW",
-          "wins": 4,
-          "losses": 2,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 13,
-          "goalDiff": 14,
-          "goalsAgainst": 9,
-          "goalsFor": 35,
-          "shutouts": 1,
-          "yellow": 3,
-          "red": 0
-        },
-        {
           "slot": "A8",
           "group": "A",
           "teamCode": "0213-01CB13-10040",
           "team": "Copper Mountain 7 CT",
           "wins": 3,
-          "losses": 3,
+          "losses": 4,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 9,
-          "goalDiff": 0,
-          "goalsAgainst": 19,
-          "goalsFor": 22,
+          "goalDiff": -1,
+          "goalsAgainst": 23,
+          "goalsFor": 25,
           "shutouts": 1,
           "yellow": 0,
           "red": 0
@@ -3144,8 +3144,8 @@
           "matchup": "A8 vs A4",
           "home": "Copper Mountain 7 CT",
           "away": "Copper Mountain 7 AW",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 3,
+          "awayScore": 4
         },
         {
           "number": "656079",
