@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T04:42:34.581456129-06:00",
+  "generatedAt": "2026-10-07T04:31:26.856704603-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -711,18 +711,35 @@
       "url": "https://uysa.sportsaffinity.com/tour/public/info/schedule_results2.asp?sessionguid=\u0026flightguid=86FD18DF-E48F-4C70-B14F-A6535C269A1E\u0026tournamentguid=69C35A62-D325-418C-95D3-C61FA95030D3",
       "standings": [
         {
+          "slot": "A2",
+          "group": "A",
+          "teamCode": "0430-15CB13-2399",
+          "team": "Summit FC 13/14B - JW",
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 18,
+          "goalDiff": 17,
+          "goalsAgainst": 5,
+          "goalsFor": 32,
+          "shutouts": 3,
+          "yellow": 0,
+          "red": 0
+        },
+        {
           "slot": "A1",
           "group": "A",
           "teamCode": "0558-02CB13-0404",
           "team": "Celtic BU13 - Fuentes",
           "wins": 6,
-          "losses": 0,
+          "losses": 1,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 18,
-          "goalDiff": 17,
-          "goalsAgainst": 4,
-          "goalsFor": 22,
+          "goalDiff": 16,
+          "goalsAgainst": 6,
+          "goalsFor": 23,
           "shutouts": 3,
           "yellow": 0,
           "red": 0
@@ -742,23 +759,6 @@
           "goalsFor": 21,
           "shutouts": 3,
           "yellow": 1,
-          "red": 0
-        },
-        {
-          "slot": "A2",
-          "group": "A",
-          "teamCode": "0430-15CB13-2399",
-          "team": "Summit FC 13/14B - JW",
-          "wins": 6,
-          "losses": 1,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 16,
-          "goalDiff": 16,
-          "goalsAgainst": 4,
-          "goalsFor": 30,
-          "shutouts": 3,
-          "yellow": 0,
           "red": 0
         },
         {
@@ -819,9 +819,9 @@
           "team": "Avalanche U13B Black DW",
           "wins": 3,
           "losses": 3,
-          "ties": 2,
+          "ties": 1,
           "pointsDed": 0,
-          "totalPoints": 11,
+          "totalPoints": 10,
           "goalDiff": -1,
           "goalsAgainst": 13,
           "goalsFor": 11,
@@ -927,21 +927,6 @@
           "home": "Strikers JH B14",
           "away": "Nebo United U13 - CG",
           "homeScore": 1,
-          "awayScore": 0
-        },
-        {
-          "number": "674243",
-          "flightSlug": "division3",
-          "flightName": "Boys 13U Division 3",
-          "kickoff": "2026-08-21T18:30:00-06:00",
-          "rawDate": "Friday, August 21, 2026",
-          "rawTime": "06:30 PM",
-          "venue": "Western Sports Park (formerly legacy)",
-          "field": "2022",
-          "matchup": "A7 vs A2",
-          "home": "Avalanche U13B Black DW",
-          "away": "Summit FC 13/14B - JW",
-          "homeScore": 0,
           "awayScore": 0
         },
         {
@@ -1481,8 +1466,8 @@
           "matchup": "A1 vs A2",
           "home": "Celtic BU13 - Fuentes",
           "away": "Summit FC 13/14B - JW",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 2
         },
         {
           "number": "674216",
@@ -1723,6 +1708,21 @@
           "away": "Nebo United U13 - CG",
           "homeScore": null,
           "awayScore": null
+        },
+        {
+          "number": "674243",
+          "flightSlug": "division3",
+          "flightName": "Boys 13U Division 3",
+          "kickoff": "2026-10-30T17:00:00-06:00",
+          "rawDate": "Friday, October 30, 2026",
+          "rawTime": "05:00 PM",
+          "venue": "Western Sports Park (formerly legacy)",
+          "field": "2022",
+          "matchup": "A7 vs A2",
+          "home": "Avalanche U13B Black DW",
+          "away": "Summit FC 13/14B - JW",
+          "homeScore": null,
+          "awayScore": null
         }
       ]
     },
@@ -1737,34 +1737,17 @@
           "group": "A",
           "teamCode": "0203-01CB13-6758",
           "team": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-AC1",
-          "wins": 5,
+          "wins": 6,
           "losses": 0,
           "ties": 0,
           "pointsDed": 0,
-          "totalPoints": 15,
-          "goalDiff": 20,
+          "totalPoints": 18,
+          "goalDiff": 23,
           "goalsAgainst": 0,
-          "goalsFor": 45,
+          "goalsFor": 48,
           "shutouts": 5,
           "yellow": 1,
           "red": 0
-        },
-        {
-          "slot": "A4",
-          "group": "A",
-          "teamCode": "02JW-01CB13-0050",
-          "team": "DEP Cachimbas FC 13/14B (ind)",
-          "wins": 5,
-          "losses": 0,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 15,
-          "goalDiff": 15,
-          "goalsAgainst": 5,
-          "goalsFor": 25,
-          "shutouts": 1,
-          "yellow": 10,
-          "red": 4
         },
         {
           "slot": "A2",
@@ -1782,6 +1765,23 @@
           "shutouts": 2,
           "yellow": 0,
           "red": 0
+        },
+        {
+          "slot": "A4",
+          "group": "A",
+          "teamCode": "02JW-01CB13-0050",
+          "team": "DEP Cachimbas FC 13/14B (ind)",
+          "wins": 5,
+          "losses": 1,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 12,
+          "goalDiff": 12,
+          "goalsAgainst": 8,
+          "goalsFor": 25,
+          "shutouts": 1,
+          "yellow": 6,
+          "red": 1
         },
         {
           "slot": "A5",
@@ -2288,9 +2288,9 @@
           "field": "2",
           "matchup": "A3 vs A4",
           "home": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-AC1",
-          "away": "DEP Cachimbas FC 13/14B (ind)",
+          "away": "DEP Cachimbas FC 13/14B (ind)Forfeited Game",
           "homeScore": null,
-          "awayScore": null
+          "awayScore": 0
         },
         {
           "number": "655956",
