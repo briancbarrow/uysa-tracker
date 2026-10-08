@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T04:31:26.856704603-06:00",
+  "generatedAt": "2026-10-08T04:52:38.071874557-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -1750,6 +1750,23 @@
           "red": 0
         },
         {
+          "slot": "A4",
+          "group": "A",
+          "teamCode": "02JW-01CB13-0050",
+          "team": "DEP Cachimbas FC 13/14B (ind)",
+          "wins": 5,
+          "losses": 1,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 13,
+          "goalDiff": 12,
+          "goalsAgainst": 11,
+          "goalsFor": 28,
+          "shutouts": 1,
+          "yellow": 6,
+          "red": 1
+        },
+        {
           "slot": "A2",
           "group": "A",
           "teamCode": "0213-01CB13-1128",
@@ -1765,23 +1782,6 @@
           "shutouts": 2,
           "yellow": 0,
           "red": 0
-        },
-        {
-          "slot": "A4",
-          "group": "A",
-          "teamCode": "02JW-01CB13-0050",
-          "team": "DEP Cachimbas FC 13/14B (ind)",
-          "wins": 5,
-          "losses": 1,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 12,
-          "goalDiff": 12,
-          "goalsAgainst": 8,
-          "goalsFor": 25,
-          "shutouts": 1,
-          "yellow": 6,
-          "red": 1
         },
         {
           "slot": "A5",
@@ -1801,6 +1801,23 @@
           "red": 0
         },
         {
+          "slot": "A1",
+          "group": "A",
+          "teamCode": "0446-06CB13-9305",
+          "team": "Avalanche U13B Pink WSL",
+          "wins": 3,
+          "losses": 2,
+          "ties": 2,
+          "pointsDed": 0,
+          "totalPoints": 11,
+          "goalDiff": 1,
+          "goalsAgainst": 20,
+          "goalsFor": 22,
+          "shutouts": 1,
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "slot": "A9",
           "group": "A",
           "teamCode": "0202-01CB13-9472",
@@ -1815,23 +1832,6 @@
           "goalsFor": 19,
           "shutouts": 1,
           "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A1",
-          "group": "A",
-          "teamCode": "0446-06CB13-9305",
-          "team": "Avalanche U13B Pink WSL",
-          "wins": 3,
-          "losses": 2,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 10,
-          "goalDiff": 1,
-          "goalsAgainst": 17,
-          "goalsFor": 19,
-          "shutouts": 1,
-          "yellow": 1,
           "red": 0
         },
         {
@@ -2349,8 +2349,8 @@
           "matchup": "A1 vs A4",
           "home": "Avalanche U13B Pink WSL",
           "away": "DEP Cachimbas FC 13/14B (ind)",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 3,
+          "awayScore": 3
         },
         {
           "number": "655973",
