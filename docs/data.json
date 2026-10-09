@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T04:52:38.071874557-06:00",
+  "generatedAt": "2026-10-09T04:51:16.87166165-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -2440,14 +2440,14 @@
           "group": "A",
           "teamCode": "0203-01CB13-0008",
           "team": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-SC2",
-          "wins": 6,
+          "wins": 7,
           "losses": 1,
           "ties": 0,
           "pointsDed": 0,
-          "totalPoints": 18,
-          "goalDiff": 18,
-          "goalsAgainst": 10,
-          "goalsFor": 42,
+          "totalPoints": 21,
+          "goalDiff": 22,
+          "goalsAgainst": 11,
+          "goalsFor": 47,
           "shutouts": 2,
           "yellow": 3,
           "red": 0
@@ -2475,15 +2475,15 @@
           "teamCode": "0213-01CB13-1152",
           "team": "Copper Mountain 7 JB",
           "wins": 5,
-          "losses": 0,
+          "losses": 1,
           "ties": 1,
           "pointsDed": 0,
           "totalPoints": 16,
-          "goalDiff": 15,
-          "goalsAgainst": 7,
-          "goalsFor": 24,
+          "goalDiff": 11,
+          "goalsAgainst": 12,
+          "goalsFor": 25,
           "shutouts": 2,
-          "yellow": 1,
+          "yellow": 3,
           "red": 0
         },
         {
@@ -3159,8 +3159,8 @@
           "matchup": "A5 vs A6",
           "home": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-SC2",
           "away": "Copper Mountain 7 JB",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 5,
+          "awayScore": 1
         },
         {
           "number": "656065",
