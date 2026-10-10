@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T04:51:16.87166165-06:00",
+  "generatedAt": "2026-10-10T04:05:19.273339806-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -711,6 +711,23 @@
       "url": "https://uysa.sportsaffinity.com/tour/public/info/schedule_results2.asp?sessionguid=\u0026flightguid=86FD18DF-E48F-4C70-B14F-A6535C269A1E\u0026tournamentguid=69C35A62-D325-418C-95D3-C61FA95030D3",
       "standings": [
         {
+          "slot": "A1",
+          "group": "A",
+          "teamCode": "0558-02CB13-0404",
+          "team": "Celtic BU13 - Fuentes",
+          "wins": 6,
+          "losses": 1,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 19,
+          "goalDiff": 16,
+          "goalsAgainst": 7,
+          "goalsFor": 24,
+          "shutouts": 3,
+          "yellow": 0,
+          "red": 0
+        },
+        {
           "slot": "A2",
           "group": "A",
           "teamCode": "0430-15CB13-2399",
@@ -723,23 +740,6 @@
           "goalDiff": 17,
           "goalsAgainst": 5,
           "goalsFor": 32,
-          "shutouts": 3,
-          "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A1",
-          "group": "A",
-          "teamCode": "0558-02CB13-0404",
-          "team": "Celtic BU13 - Fuentes",
-          "wins": 6,
-          "losses": 1,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 18,
-          "goalDiff": 16,
-          "goalsAgainst": 6,
-          "goalsFor": 23,
           "shutouts": 3,
           "yellow": 0,
           "red": 0
@@ -819,14 +819,14 @@
           "team": "Avalanche U13B Black DW",
           "wins": 3,
           "losses": 3,
-          "ties": 1,
+          "ties": 2,
           "pointsDed": 0,
-          "totalPoints": 10,
+          "totalPoints": 11,
           "goalDiff": -1,
-          "goalsAgainst": 13,
-          "goalsFor": 11,
+          "goalsAgainst": 14,
+          "goalsFor": 12,
           "shutouts": 1,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0
         },
         {
@@ -1541,8 +1541,8 @@
           "matchup": "A7 vs A1",
           "home": "Avalanche U13B Black DW",
           "away": "Celtic BU13 - Fuentes",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 1
         },
         {
           "number": "674208",
@@ -1563,9 +1563,9 @@
           "number": "674219",
           "flightSlug": "division3",
           "flightName": "Boys 13U Division 3",
-          "kickoff": "2026-10-10T10:15:00-06:00",
+          "kickoff": "2026-10-10T10:30:00-06:00",
           "rawDate": "Saturday, October 10, 2026",
-          "rawTime": "10:15 AM",
+          "rawTime": "10:30 AM",
           "venue": "Kennedy Jr High",
           "field": "2041",
           "matchup": "A10 vs A11",
