@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T04:16:11.825536082-06:00",
+  "generatedAt": "2026-10-12T05:15:46.312922402-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -2487,6 +2487,23 @@
           "red": 0
         },
         {
+          "slot": "A4",
+          "group": "A",
+          "teamCode": "0213-01CB13-1150",
+          "team": "Copper Mountain 7 AW",
+          "wins": 6,
+          "losses": 2,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 19,
+          "goalDiff": 18,
+          "goalsAgainst": 12,
+          "goalsFor": 42,
+          "shutouts": 2,
+          "yellow": 3,
+          "red": 0
+        },
+        {
           "slot": "A9",
           "group": "A",
           "teamCode": "0207-01CB13-1340",
@@ -2501,23 +2518,6 @@
           "goalsFor": 35,
           "shutouts": 2,
           "yellow": 5,
-          "red": 0
-        },
-        {
-          "slot": "A4",
-          "group": "A",
-          "teamCode": "0213-01CB13-1150",
-          "team": "Copper Mountain 7 AW",
-          "wins": 5,
-          "losses": 2,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 16,
-          "goalDiff": 15,
-          "goalsAgainst": 12,
-          "goalsFor": 39,
-          "shutouts": 1,
-          "yellow": 3,
           "red": 0
         },
         {
@@ -2560,12 +2560,12 @@
           "teamCode": "0204-01CB13-9938",
           "team": "Razzia FC Hawks",
           "wins": 1,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 3,
-          "goalDiff": -11,
-          "goalsAgainst": 22,
+          "goalDiff": -14,
+          "goalsAgainst": 25,
           "goalsFor": 8,
           "shutouts": 0,
           "yellow": 0,
@@ -3204,8 +3204,8 @@
           "matchup": "A10 vs A4",
           "home": "Razzia FC Hawks",
           "away": "Copper Mountain 7 AW",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 0,
+          "awayScore": 3
         },
         {
           "number": "656073",
