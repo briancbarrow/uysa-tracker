@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T02:58:38.892953969-06:00",
+  "generatedAt": "2026-10-15T02:33:07.596378049-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -598,21 +598,6 @@
           "awayScore": 5
         },
         {
-          "number": "672239",
-          "flightSlug": "premier",
-          "flightName": "Boys 13U Premier",
-          "kickoff": "2026-10-13T17:15:00-06:00",
-          "rawDate": "Tuesday, October 13, 2026",
-          "rawTime": "05:15 PM",
-          "venue": "Lehi Family Park",
-          "field": "1",
-          "matchup": "A8 vs A2",
-          "home": "La Roca U12B- J Walker Pre ECNL",
-          "away": "La Roca U13B- C Santos ECNL RL",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
           "number": "672256",
           "flightSlug": "premier",
           "flightName": "Boys 13U Premier",
@@ -628,7 +613,7 @@
           "awayScore": null
         },
         {
-          "number": "672254",
+          "number": "672239",
           "flightSlug": "premier",
           "flightName": "Boys 13U Premier",
           "kickoff": "2026-10-21T17:15:00-06:00",
@@ -636,9 +621,9 @@
           "rawTime": "05:15 PM",
           "venue": "Lehi Family Park",
           "field": "1",
-          "matchup": "A2 vs A7",
-          "home": "La Roca U13B- C Santos ECNL RL",
-          "away": "Peak SC 13/14B MH Black",
+          "matchup": "A8 vs A2",
+          "home": "La Roca U12B- J Walker Pre ECNL",
+          "away": "La Roca U13B- C Santos ECNL RL",
           "homeScore": null,
           "awayScore": null
         },
@@ -654,6 +639,21 @@
           "matchup": "A4 vs A5",
           "home": "Murray S.C. U13 Boys Black TP",
           "away": "Avalanche U13B Black SL",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "number": "672254",
+          "flightSlug": "premier",
+          "flightName": "Boys 13U Premier",
+          "kickoff": "2026-10-27T17:15:00-06:00",
+          "rawDate": "Tuesday, October 27, 2026",
+          "rawTime": "05:15 PM",
+          "venue": "Lehi Family Park",
+          "field": "1",
+          "matchup": "A2 vs A7",
+          "home": "La Roca U13B- C Santos ECNL RL",
+          "away": "Peak SC 13/14B MH Black",
           "homeScore": null,
           "awayScore": null
         },
@@ -1767,6 +1767,23 @@
           "red": 1
         },
         {
+          "slot": "A5",
+          "group": "A",
+          "teamCode": "0213-01CB13-1134",
+          "team": "Copper Mountain 7 BH",
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 15,
+          "goalDiff": 6,
+          "goalsAgainst": 28,
+          "goalsFor": 36,
+          "shutouts": 2,
+          "yellow": 0,
+          "red": 0
+        },
+        {
           "slot": "A2",
           "group": "A",
           "teamCode": "0213-01CB13-1128",
@@ -1784,35 +1801,18 @@
           "red": 0
         },
         {
-          "slot": "A5",
-          "group": "A",
-          "teamCode": "0213-01CB13-1134",
-          "team": "Copper Mountain 7 BH",
-          "wins": 4,
-          "losses": 3,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 12,
-          "goalDiff": 2,
-          "goalsAgainst": 24,
-          "goalsFor": 28,
-          "shutouts": 2,
-          "yellow": 0,
-          "red": 0
-        },
-        {
           "slot": "A1",
           "group": "A",
           "teamCode": "0446-06CB13-9305",
           "team": "Avalanche U13B Pink WSL",
           "wins": 3,
-          "losses": 2,
+          "losses": 3,
           "ties": 2,
           "pointsDed": 0,
           "totalPoints": 11,
-          "goalDiff": 1,
-          "goalsAgainst": 20,
-          "goalsFor": 22,
+          "goalDiff": -3,
+          "goalsAgainst": 28,
+          "goalsFor": 26,
           "shutouts": 1,
           "yellow": 1,
           "red": 0
@@ -2379,8 +2379,8 @@
           "matchup": "A1 vs A5",
           "home": "Avalanche U13B Pink WSL",
           "away": "Copper Mountain 7 BH",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 4,
+          "awayScore": 8
         },
         {
           "number": "655976",
