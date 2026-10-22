@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T02:50:01.679944777-06:00",
+  "generatedAt": "2026-10-22T02:52:30.162465417-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -80,14 +80,14 @@
           "group": "A",
           "teamCode": "0436-03SB13-0263",
           "team": "La Roca U13B- C Santos ECNL RL",
-          "wins": 3,
+          "wins": 4,
           "losses": 2,
           "ties": 0,
           "pointsDed": 0,
-          "totalPoints": 9,
-          "goalDiff": 6,
-          "goalsAgainst": 10,
-          "goalsFor": 23,
+          "totalPoints": 12,
+          "goalDiff": 10,
+          "goalsAgainst": 11,
+          "goalsFor": 28,
           "shutouts": 2,
           "yellow": 1,
           "red": 0
@@ -98,13 +98,13 @@
           "teamCode": "0436-03SB13-0274",
           "team": "La Roca U12B- J Walker Pre ECNL",
           "wins": 2,
-          "losses": 3,
+          "losses": 4,
           "ties": 2,
           "pointsDed": 0,
           "totalPoints": 8,
-          "goalDiff": -7,
-          "goalsAgainst": 16,
-          "goalsFor": 9,
+          "goalDiff": -11,
+          "goalsAgainst": 21,
+          "goalsFor": 10,
           "shutouts": 1,
           "yellow": 1,
           "red": 0
@@ -624,8 +624,8 @@
           "matchup": "A8 vs A2",
           "home": "La Roca U12B- J Walker Pre ECNL",
           "away": "La Roca U13B- C Santos ECNL RL",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 5
         },
         {
           "number": "672253",
@@ -745,6 +745,23 @@
           "red": 0
         },
         {
+          "slot": "A11",
+          "group": "A",
+          "teamCode": "0558-02CB13-8655",
+          "team": "Celtic BU13 - Enriquez",
+          "wins": 7,
+          "losses": 2,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 21,
+          "goalDiff": 13,
+          "goalsAgainst": 11,
+          "goalsFor": 26,
+          "shutouts": 5,
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "slot": "A5",
           "group": "A",
           "teamCode": "0430-05CB13-9964",
@@ -758,23 +775,6 @@
           "goalsAgainst": 11,
           "goalsFor": 23,
           "shutouts": 3,
-          "yellow": 1,
-          "red": 0
-        },
-        {
-          "slot": "A11",
-          "group": "A",
-          "teamCode": "0558-02CB13-8655",
-          "team": "Celtic BU13 - Enriquez",
-          "wins": 6,
-          "losses": 2,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 18,
-          "goalDiff": 10,
-          "goalsAgainst": 10,
-          "goalsFor": 22,
-          "shutouts": 5,
           "yellow": 1,
           "red": 0
         },
@@ -835,13 +835,13 @@
           "teamCode": "0118-01CB13-1422",
           "team": "Blue Knights U13 B13/14 (JE)",
           "wins": 2,
-          "losses": 5,
+          "losses": 6,
           "ties": 1,
           "pointsDed": 0,
           "totalPoints": 7,
-          "goalDiff": -10,
-          "goalsAgainst": 25,
-          "goalsFor": 14,
+          "goalDiff": -13,
+          "goalsAgainst": 29,
+          "goalsFor": 15,
           "shutouts": 1,
           "yellow": 1,
           "red": 0
@@ -1646,8 +1646,8 @@
           "matchup": "A11 vs A6",
           "home": "Celtic BU13 - Enriquez",
           "away": "Blue Knights U13 B13/14 (JE)",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 4,
+          "awayScore": 1
         },
         {
           "number": "674237",
