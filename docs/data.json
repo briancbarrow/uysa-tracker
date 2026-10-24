@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T02:47:27.289789642-06:00",
+  "generatedAt": "2026-10-24T02:21:51.676576223-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -711,6 +711,23 @@
       "url": "https://uysa.sportsaffinity.com/tour/public/info/schedule_results2.asp?sessionguid=\u0026flightguid=86FD18DF-E48F-4C70-B14F-A6535C269A1E\u0026tournamentguid=69C35A62-D325-418C-95D3-C61FA95030D3",
       "standings": [
         {
+          "slot": "A11",
+          "group": "A",
+          "teamCode": "0558-02CB13-8655",
+          "team": "Celtic BU13 - Enriquez",
+          "wins": 8,
+          "losses": 2,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 24,
+          "goalDiff": 14,
+          "goalsAgainst": 11,
+          "goalsFor": 27,
+          "shutouts": 6,
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "slot": "A1",
           "group": "A",
           "teamCode": "0558-02CB13-0404",
@@ -745,34 +762,17 @@
           "red": 0
         },
         {
-          "slot": "A11",
-          "group": "A",
-          "teamCode": "0558-02CB13-8655",
-          "team": "Celtic BU13 - Enriquez",
-          "wins": 7,
-          "losses": 2,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 21,
-          "goalDiff": 13,
-          "goalsAgainst": 11,
-          "goalsFor": 26,
-          "shutouts": 5,
-          "yellow": 1,
-          "red": 0
-        },
-        {
           "slot": "A5",
           "group": "A",
           "teamCode": "0430-05CB13-9964",
           "team": "Metasport FC 13/14B U13 KR (SFC)",
           "wins": 6,
-          "losses": 2,
+          "losses": 3,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 18,
-          "goalDiff": 11,
-          "goalsAgainst": 11,
+          "goalDiff": 10,
+          "goalsAgainst": 12,
           "goalsFor": 23,
           "shutouts": 3,
           "yellow": 1,
@@ -1620,21 +1620,6 @@
           "awayScore": 4
         },
         {
-          "number": "674256",
-          "flightSlug": "division3",
-          "flightName": "Boys 13U Division 3",
-          "kickoff": "2026-10-13T17:30:00-06:00",
-          "rawDate": "Tuesday, October 13, 2026",
-          "rawTime": "05:30 PM",
-          "venue": "Western Sports Park (formerly legacy)Closed!",
-          "field": "2026",
-          "matchup": "A5 vs A8",
-          "home": "Metasport FC 13/14B U13 KR (SFC)",
-          "away": "Liverpool FC IA - Premier 13-14",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
           "number": "674209",
           "flightSlug": "division3",
           "flightName": "Boys 13U Division 3",
@@ -1661,8 +1646,8 @@
           "matchup": "A11 vs A5",
           "home": "Celtic BU13 - Enriquez",
           "away": "Metasport FC 13/14B U13 KR (SFC)",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 0
         },
         {
           "number": "674255",
@@ -1706,6 +1691,21 @@
           "matchup": "A8 vs A3",
           "home": "Liverpool FC IA - Premier 13-14",
           "away": "Nebo United U13 - CG",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "number": "674256",
+          "flightSlug": "division3",
+          "flightName": "Boys 13U Division 3",
+          "kickoff": "2026-10-29T17:30:00-06:00",
+          "rawDate": "Thursday, October 29, 2026",
+          "rawTime": "05:30 PM",
+          "venue": "Western Sports Park (formerly legacy)",
+          "field": "2026",
+          "matchup": "A5 vs A8",
+          "home": "Metasport FC 13/14B U13 KR (SFC)",
+          "away": "Liverpool FC IA - Premier 13-14",
           "homeScore": null,
           "awayScore": null
         },
