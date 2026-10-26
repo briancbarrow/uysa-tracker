@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T02:40:37.347911934-06:00",
+  "generatedAt": "2026-10-26T03:17:58.191713023-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -114,15 +114,15 @@
           "group": "A",
           "teamCode": "0106-01CB13-2091",
           "team": "Murray S.C. U13 Boys Black TP",
-          "wins": 1,
+          "wins": 2,
           "losses": 4,
           "ties": 1,
           "pointsDed": 0,
-          "totalPoints": 4,
-          "goalDiff": -12,
+          "totalPoints": 7,
+          "goalDiff": -11,
           "goalsAgainst": 24,
-          "goalsFor": 8,
-          "shutouts": 0,
+          "goalsFor": 9,
+          "shutouts": 1,
           "yellow": 0,
           "red": 0
         },
@@ -149,15 +149,15 @@
           "teamCode": "0446-02C3B13-9254",
           "team": "Avalanche U13B Black SL",
           "wins": 0,
-          "losses": 4,
+          "losses": 5,
           "ties": 2,
           "pointsDed": 0,
           "totalPoints": 2,
-          "goalDiff": -14,
-          "goalsAgainst": 23,
+          "goalDiff": -15,
+          "goalsAgainst": 24,
           "goalsFor": 3,
           "shutouts": 0,
-          "yellow": 1,
+          "yellow": 3,
           "red": 0
         }
       ],
@@ -639,8 +639,8 @@
           "matchup": "A4 vs A5",
           "home": "Murray S.C. U13 Boys Black TP",
           "away": "Avalanche U13B Black SL",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 0
         },
         {
           "number": "672254",
