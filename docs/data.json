@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T03:17:14.689061205-06:00",
+  "generatedAt": "2026-10-28T03:58:08.935323072-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -31,15 +31,32 @@
           "team": "Peak SC 13/14B MH Black",
           "wins": 5,
           "losses": 1,
-          "ties": 0,
+          "ties": 1,
           "pointsDed": 0,
-          "totalPoints": 15,
+          "totalPoints": 16,
           "goalDiff": 7,
           "goalsAgainst": 7,
           "goalsFor": 14,
           "shutouts": 1,
           "yellow": 2,
           "red": 0
+        },
+        {
+          "slot": "A2",
+          "group": "A",
+          "teamCode": "0436-03SB13-0263",
+          "team": "La Roca U13B- C Santos ECNL RL",
+          "wins": 4,
+          "losses": 2,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 13,
+          "goalDiff": 10,
+          "goalsAgainst": 11,
+          "goalsFor": 28,
+          "shutouts": 2,
+          "yellow": 1,
+          "red": 1
         },
         {
           "slot": "A3",
@@ -74,23 +91,6 @@
           "shutouts": 2,
           "yellow": 4,
           "red": 1
-        },
-        {
-          "slot": "A2",
-          "group": "A",
-          "teamCode": "0436-03SB13-0263",
-          "team": "La Roca U13B- C Santos ECNL RL",
-          "wins": 4,
-          "losses": 2,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 12,
-          "goalDiff": 10,
-          "goalsAgainst": 11,
-          "goalsFor": 28,
-          "shutouts": 2,
-          "yellow": 1,
-          "red": 0
         },
         {
           "slot": "A8",
@@ -654,8 +654,8 @@
           "matchup": "A2 vs A7",
           "home": "La Roca U13B- C Santos ECNL RL",
           "away": "Peak SC 13/14B MH Black",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 0,
+          "awayScore": 0
         },
         {
           "number": "672259",
@@ -1737,15 +1737,15 @@
           "group": "A",
           "teamCode": "0203-01CB13-6758",
           "team": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-AC1",
-          "wins": 6,
+          "wins": 7,
           "losses": 0,
           "ties": 0,
           "pointsDed": 0,
-          "totalPoints": 18,
-          "goalDiff": 23,
+          "totalPoints": 21,
+          "goalDiff": 26,
           "goalsAgainst": 0,
-          "goalsFor": 48,
-          "shutouts": 5,
+          "goalsFor": 51,
+          "shutouts": 6,
           "yellow": 1,
           "red": 0
         },
@@ -1789,12 +1789,12 @@
           "teamCode": "0213-01CB13-1128",
           "team": "Copper Mountain 7 ZP/ZN",
           "wins": 4,
-          "losses": 2,
+          "losses": 3,
           "ties": 1,
           "pointsDed": 0,
           "totalPoints": 13,
-          "goalDiff": 8,
-          "goalsAgainst": 12,
+          "goalDiff": 5,
+          "goalsAgainst": 15,
           "goalsFor": 27,
           "shutouts": 2,
           "yellow": 0,
@@ -2409,8 +2409,8 @@
           "matchup": "A2 vs A3",
           "home": "Copper Mountain 7 ZP/ZN",
           "away": "UTAH ATHLETIC CLUB WEST (TOOELE) BU13-AC1",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 0,
+          "awayScore": 3
         },
         {
           "number": "655985",
@@ -2435,6 +2435,23 @@
       "name": "Boys 13U Metro B",
       "url": "https://uysa.sportsaffinity.com/tour/public/info/schedule_results2.asp?sessionguid=\u0026flightguid=788C877A-364A-4401-8166-FF2C034737AF\u0026tournamentguid=69C35A62-D325-418C-95D3-C61FA95030D3",
       "standings": [
+        {
+          "slot": "A6",
+          "group": "A",
+          "teamCode": "0213-01CB13-1152",
+          "team": "Copper Mountain 7 JB",
+          "wins": 7,
+          "losses": 1,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 22,
+          "goalDiff": 19,
+          "goalsAgainst": 15,
+          "goalsFor": 37,
+          "shutouts": 3,
+          "yellow": 3,
+          "red": 0
+        },
         {
           "slot": "A5",
           "group": "A",
@@ -2467,23 +2484,6 @@
           "goalsFor": 37,
           "shutouts": 2,
           "yellow": 1,
-          "red": 0
-        },
-        {
-          "slot": "A6",
-          "group": "A",
-          "teamCode": "0213-01CB13-1152",
-          "team": "Copper Mountain 7 JB",
-          "wins": 6,
-          "losses": 1,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 19,
-          "goalDiff": 15,
-          "goalsAgainst": 12,
-          "goalsFor": 30,
-          "shutouts": 3,
-          "yellow": 3,
           "red": 0
         },
         {
@@ -2521,37 +2521,37 @@
           "red": 0
         },
         {
+          "slot": "A1",
+          "group": "A",
+          "teamCode": "0446-02C3B13-9259",
+          "team": "Avalanche U13B Blue SL",
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 12,
+          "goalDiff": 0,
+          "goalsAgainst": 31,
+          "goalsFor": 30,
+          "shutouts": 1,
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "slot": "A8",
           "group": "A",
           "teamCode": "0213-01CB13-10040",
           "team": "Copper Mountain 7 CT",
           "wins": 3,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 9,
-          "goalDiff": -1,
-          "goalsAgainst": 23,
-          "goalsFor": 25,
+          "goalDiff": -5,
+          "goalsAgainst": 30,
+          "goalsFor": 28,
           "shutouts": 1,
           "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A1",
-          "group": "A",
-          "teamCode": "0446-02C3B13-9259",
-          "team": "Avalanche U13B Blue SL",
-          "wins": 3,
-          "losses": 4,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 9,
-          "goalDiff": -4,
-          "goalsAgainst": 30,
-          "goalsFor": 24,
-          "shutouts": 1,
-          "yellow": 1,
           "red": 0
         },
         {
@@ -2560,13 +2560,13 @@
           "teamCode": "0204-01CB13-9938",
           "team": "Razzia FC Hawks",
           "wins": 1,
-          "losses": 6,
+          "losses": 7,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 3,
-          "goalDiff": -14,
-          "goalsAgainst": 25,
-          "goalsFor": 8,
+          "goalDiff": -18,
+          "goalsAgainst": 31,
+          "goalsFor": 9,
           "shutouts": 0,
           "yellow": 0,
           "red": 1
@@ -3249,8 +3249,8 @@
           "matchup": "A1 vs A10",
           "home": "Avalanche U13B Blue SL",
           "away": "Razzia FC Hawks",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 6,
+          "awayScore": 1
         },
         {
           "number": "656064",
@@ -3264,8 +3264,8 @@
           "matchup": "A8 vs A6",
           "home": "Copper Mountain 7 CT",
           "away": "Copper Mountain 7 JB",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 3,
+          "awayScore": 7
         },
         {
           "number": "656069",
