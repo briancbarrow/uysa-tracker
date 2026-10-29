@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T03:58:08.935323072-06:00",
+  "generatedAt": "2026-10-29T04:21:21.953123481-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -42,6 +42,23 @@
           "red": 0
         },
         {
+          "slot": "A6",
+          "group": "A",
+          "teamCode": "0436-05PB13-0011",
+          "team": "La Roca U13B-M Castillo",
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 15,
+          "goalDiff": 13,
+          "goalsAgainst": 16,
+          "goalsFor": 33,
+          "shutouts": 3,
+          "yellow": 4,
+          "red": 1
+        },
+        {
           "slot": "A2",
           "group": "A",
           "teamCode": "0436-03SB13-0263",
@@ -74,23 +91,6 @@
           "shutouts": 2,
           "yellow": 0,
           "red": 0
-        },
-        {
-          "slot": "A6",
-          "group": "A",
-          "teamCode": "0436-05PB13-0011",
-          "team": "La Roca U13B-M Castillo",
-          "wins": 4,
-          "losses": 3,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 12,
-          "goalDiff": 9,
-          "goalsAgainst": 16,
-          "goalsFor": 27,
-          "shutouts": 2,
-          "yellow": 4,
-          "red": 1
         },
         {
           "slot": "A8",
@@ -149,12 +149,12 @@
           "teamCode": "0446-02C3B13-9254",
           "team": "Avalanche U13B Black SL",
           "wins": 0,
-          "losses": 5,
+          "losses": 6,
           "ties": 2,
           "pointsDed": 0,
           "totalPoints": 2,
-          "goalDiff": -15,
-          "goalsAgainst": 24,
+          "goalDiff": -19,
+          "goalsAgainst": 30,
           "goalsFor": 3,
           "shutouts": 0,
           "yellow": 3,
@@ -669,8 +669,8 @@
           "matchup": "A5 vs A6",
           "home": "Avalanche U13B Black SL",
           "away": "La Roca U13B-M Castillo",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 0,
+          "awayScore": 6
         },
         {
           "number": "672257",
