@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T04:23:22.897900501-06:00",
+  "generatedAt": "2026-10-31T03:54:18.100625375-06:00",
   "flights": [
     {
       "slug": "premier",
@@ -711,6 +711,23 @@
       "url": "https://uysa.sportsaffinity.com/tour/public/info/schedule_results2.asp?sessionguid=\u0026flightguid=86FD18DF-E48F-4C70-B14F-A6535C269A1E\u0026tournamentguid=69C35A62-D325-418C-95D3-C61FA95030D3",
       "standings": [
         {
+          "slot": "A2",
+          "group": "A",
+          "teamCode": "0430-15CB13-2399",
+          "team": "Summit FC 13/14B - JW",
+          "wins": 9,
+          "losses": 1,
+          "ties": 0,
+          "pointsDed": 0,
+          "totalPoints": 24,
+          "goalDiff": 22,
+          "goalsAgainst": 8,
+          "goalsFor": 41,
+          "shutouts": 3,
+          "yellow": 0,
+          "red": 1
+        },
+        {
           "slot": "A11",
           "group": "A",
           "teamCode": "0558-02CB13-8655",
@@ -740,23 +757,6 @@
           "goalDiff": 18,
           "goalsAgainst": 9,
           "goalsFor": 28,
-          "shutouts": 3,
-          "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A2",
-          "group": "A",
-          "teamCode": "0430-15CB13-2399",
-          "team": "Summit FC 13/14B - JW",
-          "wins": 8,
-          "losses": 1,
-          "ties": 0,
-          "pointsDed": 0,
-          "totalPoints": 21,
-          "goalDiff": 18,
-          "goalsAgainst": 7,
-          "goalsFor": 35,
           "shutouts": 3,
           "yellow": 0,
           "red": 0
@@ -818,13 +818,13 @@
           "teamCode": "0446-05CB13-9114",
           "team": "Avalanche U13B Black DW",
           "wins": 3,
-          "losses": 4,
+          "losses": 5,
           "ties": 2,
           "pointsDed": 0,
           "totalPoints": 11,
-          "goalDiff": -2,
-          "goalsAgainst": 15,
-          "goalsFor": 12,
+          "goalDiff": -6,
+          "goalsAgainst": 21,
+          "goalsFor": 13,
           "shutouts": 1,
           "yellow": 1,
           "red": 0
@@ -1721,8 +1721,8 @@
           "matchup": "A7 vs A2",
           "home": "Avalanche U13B Black DW",
           "away": "Summit FC 13/14B - JW",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 1,
+          "awayScore": 6
         }
       ]
     },
@@ -2525,14 +2525,14 @@
           "group": "A",
           "teamCode": "0446-02C3B13-9259",
           "team": "Avalanche U13B Blue SL",
-          "wins": 4,
+          "wins": 5,
           "losses": 4,
           "ties": 0,
           "pointsDed": 0,
-          "totalPoints": 12,
-          "goalDiff": 0,
-          "goalsAgainst": 31,
-          "goalsFor": 30,
+          "totalPoints": 15,
+          "goalDiff": 3,
+          "goalsAgainst": 33,
+          "goalsFor": 35,
           "shutouts": 1,
           "yellow": 1,
           "red": 0
@@ -2543,13 +2543,13 @@
           "teamCode": "0213-01CB13-10040",
           "team": "Copper Mountain 7 CT",
           "wins": 3,
-          "losses": 5,
+          "losses": 6,
           "ties": 0,
           "pointsDed": 0,
           "totalPoints": 9,
-          "goalDiff": -5,
-          "goalsAgainst": 30,
-          "goalsFor": 28,
+          "goalDiff": -8,
+          "goalsAgainst": 35,
+          "goalsFor": 30,
           "shutouts": 1,
           "yellow": 0,
           "red": 0
@@ -3279,8 +3279,8 @@
           "matchup": "A1 vs A8",
           "home": "Avalanche U13B Blue SL",
           "away": "Copper Mountain 7 CT",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 5,
+          "awayScore": 2
         }
       ]
     }
