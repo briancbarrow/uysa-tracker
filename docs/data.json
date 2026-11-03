@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T04:36:58.122497238-07:00",
+  "generatedAt": "2026-11-03T04:15:35.254563372-07:00",
   "flights": [
     {
       "slug": "premier",
@@ -42,6 +42,23 @@
           "red": 0
         },
         {
+          "slot": "A2",
+          "group": "A",
+          "teamCode": "0436-03SB13-0263",
+          "team": "La Roca U13B- C Santos ECNL RL",
+          "wins": 5,
+          "losses": 2,
+          "ties": 1,
+          "pointsDed": 0,
+          "totalPoints": 16,
+          "goalDiff": 14,
+          "goalsAgainst": 12,
+          "goalsFor": 33,
+          "shutouts": 2,
+          "yellow": 2,
+          "red": 1
+        },
+        {
           "slot": "A6",
           "group": "A",
           "teamCode": "0436-05PB13-0011",
@@ -56,23 +73,6 @@
           "goalsFor": 33,
           "shutouts": 3,
           "yellow": 4,
-          "red": 1
-        },
-        {
-          "slot": "A2",
-          "group": "A",
-          "teamCode": "0436-03SB13-0263",
-          "team": "La Roca U13B- C Santos ECNL RL",
-          "wins": 4,
-          "losses": 2,
-          "ties": 1,
-          "pointsDed": 0,
-          "totalPoints": 13,
-          "goalDiff": 10,
-          "goalsAgainst": 11,
-          "goalsFor": 28,
-          "shutouts": 2,
-          "yellow": 2,
           "red": 1
         },
         {
@@ -132,13 +132,13 @@
           "teamCode": "0402-01CB13-1439",
           "team": "Wasatch SC 14/13B - AM",
           "wins": 0,
-          "losses": 5,
+          "losses": 6,
           "ties": 2,
           "pointsDed": 0,
           "totalPoints": 2,
-          "goalDiff": -12,
-          "goalsAgainst": 18,
-          "goalsFor": 3,
+          "goalDiff": -16,
+          "goalsAgainst": 23,
+          "goalsFor": 4,
           "shutouts": 0,
           "yellow": 0,
           "red": 0
@@ -684,8 +684,8 @@
           "matchup": "A2 vs A9",
           "home": "La Roca U13B- C Santos ECNL RL",
           "away": "Wasatch SC 14/13B - AM",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 5,
+          "awayScore": 1
         },
         {
           "number": "672258",
@@ -847,37 +847,37 @@
           "red": 0
         },
         {
+          "slot": "A8",
+          "group": "A",
+          "teamCode": "0529-06CB13-8631",
+          "team": "Liverpool FC IA - Premier 13-14",
+          "wins": 1,
+          "losses": 6,
+          "ties": 3,
+          "pointsDed": 0,
+          "totalPoints": 6,
+          "goalDiff": -12,
+          "goalsAgainst": 24,
+          "goalsFor": 10,
+          "shutouts": 1,
+          "yellow": 3,
+          "red": 0
+        },
+        {
           "slot": "A10",
           "group": "A",
           "teamCode": "0298-01CB13-7869",
           "team": "Elko Elite BU13 IND",
           "wins": 1,
-          "losses": 7,
+          "losses": 8,
           "ties": 1,
           "pointsDed": 0,
-          "totalPoints": 4,
-          "goalDiff": -23,
-          "goalsAgainst": 50,
+          "totalPoints": 3,
+          "goalDiff": -24,
+          "goalsAgainst": 51,
           "goalsFor": 16,
           "shutouts": 0,
           "yellow": 0,
-          "red": 0
-        },
-        {
-          "slot": "A8",
-          "group": "A",
-          "teamCode": "0529-06CB13-8631",
-          "team": "Liverpool FC IA - Premier 13-14",
-          "wins": 0,
-          "losses": 6,
-          "ties": 3,
-          "pointsDed": 0,
-          "totalPoints": 3,
-          "goalDiff": -13,
-          "goalsAgainst": 24,
-          "goalsFor": 9,
-          "shutouts": 0,
-          "yellow": 3,
           "red": 0
         },
         {
@@ -1584,9 +1584,9 @@
           "venue": "Kennedy Jr High",
           "field": "2041",
           "matchup": "A10 vs A8",
-          "home": "Elko Elite BU13 IND",
+          "home": "Elko Elite BU13 INDDisqualified",
           "away": "Liverpool FC IA - Premier 13-14",
-          "homeScore": null,
+          "homeScore": 0,
           "awayScore": null
         },
         {
