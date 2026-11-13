@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T04:44:02.693204078-07:00",
+  "generatedAt": "2026-11-13T04:27:21.35991974-07:00",
   "flights": [
     {
       "slug": "premier",
@@ -2739,8 +2739,8 @@
           "matchup": "A7 vs A10",
           "home": "Madrid FC 13/14B (ind)",
           "away": "Razzia FC Hawks",
-          "homeScore": null,
-          "awayScore": null
+          "homeScore": 0,
+          "awayScore": 0
         },
         {
           "number": "656045",
